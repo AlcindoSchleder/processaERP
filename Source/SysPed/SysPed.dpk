@@ -1,0 +1,73 @@
+package SysPed;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerenciador de Pedidos'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+{$DEFINE MOD_PEDIDOS}
+
+requires
+  rtl,
+  ProcScr,
+  CmmProc,
+  vcljpg,
+  vcl,
+  dbrtl,
+  dbexpress,
+  vcldb,
+  VirtualTreesD7,
+  RxCtl7,
+  VclSmp,
+  processa,
+  V103_D70,
+  vclx,
+  designide,
+  vclactnband;
+
+contains
+  SearchOrder in 'SearchOrder.pas' {fmSearchOrder},
+  ArqCnst in 'ArqCnst.pas',
+  CadPedEntr in 'CadPedEntr.pas' {CdPedEntr},
+  CadPedExp in 'CadPedExp.pas' {CdPedExp},
+  CadPedHst in 'CadPedHst.pas' {CdOrdersHist},
+  CadPedItem in 'CadPedItem.pas' {CdPedItem},
+  CadPedVinc in 'CadPedVinc.pas' {CdPedVinc},
+  mSysPed in 'mSysPed.pas' {dmSysPed: TDataModule},
+  PedArqSql in 'PedArqSql.pas',
+  CadPed in 'CadPed.pas' {frmOrders},
+  CadPedMsg in 'CadPedMsg.pas' {CdPedMsg},
+  SearchItem in 'SearchItem.pas' {fmSearchProd},
+  CadInstlm in 'CadInstlm.pas' {CdInstallments},
+  CadTableMv in 'CadTableMv.pas' {CdTablesMoviment},
+  CadGrMov in 'CadGrMov.pas' {CdGruposMovim},
+  CadTMov in 'CadTMov.pas' {CdTypeMovim},
+  CadTPgto in 'CadTPgto.pas' {CdTipoPgtos},
+  CadTDesc in 'CadTDesc.pas' {CdTypeDiscount},
+  CadStt in 'CadStt.pas' {CdTipoStatus},
+  CadTFre in 'CadTFre.pas' {CdTipoFretes},
+  CadPrzE in 'CadPrzE.pas' {CdDelivery},
+  CadParamsPed in 'CadParamsPed.pas' {CdParamsPed},
+  CadOrder in 'CadOrder.pas' {CdOrder};
+
+end.

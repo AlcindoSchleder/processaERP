@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Root>
+   <Documentation>
+      <Property Name="DisplayName" Value="TGT XP style"/>
+      <Property Name="LastUpdated" Value="08/19/2001"/>
+      <Property Name="ToolTip" Value="TGT XP Visual Style"/>
+      <Property Name="Author" Value="TGT Design Team"/>
+      <Property Name="Company" Value="TGT Soft LLC"/>
+      <Property Name="Copyright" Value="Copyright © TGT Soft LLC, 2001"/>
+      <Property Name="URL" Value="http://www.tgtsoft.com"/>
+      <Property Name="Version" Value=".01"/>
+      <Property Name="Description" Value="T"/>
+      <Property Name="ThemeName" Value="(unnamed)"/>
+      <Property Name="WmpSkinName" Value="Default"/>
+   </Documentation>
+   <ColorScheme Name="Blue">
+      <Property Name="DisplayName" Value="Normal(Blue)"/>
+      <Property Name="Tooltip" Value="Blue Color Scheme"/>
+      <SysMetrics>
+         <Property Name="ScrollBarWidth" Value="$ScrollBarWidth$"/>
+         <Property Name="ScrollBarHeight" Value="$ScrollBarHeight$"/>
+         <Property Name="CaptionFont" Value="$CaptionFont$"/>
+         <Property Name="CaptionBarHeight" Value="$CaptionBarHeight$"/>
+         <Property Name="SmallCaptionFont" Value="$SmallCaptionFont"/>
+         <Property Name="SMCaptionBarHeight" Value="$SmallCaptionBarHeight$"/>
+         <Property Name="SMCaptionBarWidth" Value="$SmallCaptionBarWidth$"/>
+         <Property Name="MenuFont" Value="$MenuFont$"/>
+         <Property Name="StatusFont" Value="$MenuFont$"/>
+         <Property Name="MsgBoxFont" Value="$MenuFont$"/>
+         <Property Name="IconTitleFont" Value="$MenuFont$"/>
+      </SysMetrics>
+      <Font Name="Normal">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="17" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="17" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="25" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 10, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="17" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="17" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 8, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 8" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 8" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 8, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 14" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 14, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+      <Font Name="LargeFonts">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="19" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="19" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="29" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 14, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="19" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="19" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 9, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 10" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 10" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 10, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 17" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 17, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+      <Font Name="ExtraLarge">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="21" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="21" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="35" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 17, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="21" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="21" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 10, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 12" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 12" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 12, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 20" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 20, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+   </ColorScheme>
+   <ColorScheme Name="Homestead">
+      <Property Name="DisplayName" Value="Olive Green"/>
+      <Property Name="Tooltip" Value="Olive Green Color Scheme"/>
+      <SysMetrics>
+         <Property Name="ScrollBarWidth" Value="$ScrollBarWidth$"/>
+         <Property Name="ScrollBarHeight" Value="$ScrollBarHeight$"/>
+         <Property Name="CaptionFont" Value="$CaptionFont$"/>
+         <Property Name="CaptionBarHeight" Value="$CaptionBarHeight$"/>
+         <Property Name="SmallCaptionFont" Value="$SmallCaptionFont"/>
+         <Property Name="SMCaptionBarHeight" Value="$SmallCaptionBarHeight$"/>
+         <Property Name="SMCaptionBarWidth" Value="$SmallCaptionBarWidth$"/>
+         <Property Name="MenuFont" Value="$MenuFont$"/>
+         <Property Name="StatusFont" Value="$MenuFont$"/>
+         <Property Name="MsgBoxFont" Value="$MenuFont$"/>
+         <Property Name="IconTitleFont" Value="$MenuFont$"/>
+      </SysMetrics>
+      <Font Name="Normal">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="17" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="17" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="25" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 10, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="17" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="17" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 8, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 8" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 8" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 8, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 14" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 14, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+      <Font Name="LargeFonts">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="19" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="19" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="29" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 14, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="19" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="19" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 9, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 10" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 10" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 10, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 17" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 17, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+      <Font Name="ExtraLarge">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="21" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="21" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="35" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 17, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="21" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="21" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 10, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 12" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 12" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 12, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 20" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 20, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+   </ColorScheme>
+   <ColorScheme Name="Metallic">
+      <Property Name="DisplayName" Value="Silver"/>
+      <Property Name="Tooltip" Value="Silver Color Scheme"/>
+      <SysMetrics>
+         <Property Name="ScrollBarWidth" Value="$ScrollBarWidth$"/>
+         <Property Name="ScrollBarHeight" Value="$ScrollBarHeight$"/>
+         <Property Name="CaptionFont" Value="$CaptionFont$"/>
+         <Property Name="CaptionBarHeight" Value="$CaptionBarHeight$"/>
+         <Property Name="SmallCaptionFont" Value="$SmallCaptionFont"/>
+         <Property Name="SMCaptionBarHeight" Value="$SmallCaptionBarHeight$"/>
+         <Property Name="SMCaptionBarWidth" Value="$SmallCaptionBarWidth$"/>
+         <Property Name="MenuFont" Value="$MenuFont$"/>
+         <Property Name="StatusFont" Value="$MenuFont$"/>
+         <Property Name="MsgBoxFont" Value="$MenuFont$"/>
+         <Property Name="IconTitleFont" Value="$MenuFont$"/>
+      </SysMetrics>
+      <Font Name="Normal">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="17" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="17" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="25" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 10, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="17" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="17" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 8, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 8" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 8" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 8, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 14" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 14, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+      <Font Name="LargeFonts">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="19" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="19" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="29" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 14, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="19" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="19" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 9, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 10" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 10" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 10, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 17" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 17, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+      <Font Name="ExtraLarge">
+         <Substitution>
+            <Token Name="$ScrollBarWidth$" Value="21" Type="INT"/>
+            <Token Name="$ScrollBarHeight$" Value="21" Type="INT"/>
+            <Token Name="$CaptionBarHeight$" Value="35" Type="INT"/>
+            <Token Name="$CaptionFont$" Value="Trebuchet MS, 17, bold" Type="FONT"/>
+            <Token Name="$SmallCaptionBarHeight$" Value="21" Type="INT"/>
+            <Token Name="$SmallCaptionBarWidth$" Value="21" Type="INT"/>
+            <Token Name="$SmallCaptionFont$" Value="Tahoma, 10, bold" Type="FONT"/>
+            <Token Name="$MenuFont$" Value="Tahoma, 12" Type="FONT"/>
+            <Token Name="$Tahoma8$" Value="Tahoma, 12" Type="FONT"/>
+            <Token Name="$Tahoma8Bold$" Value="Tahoma, 12, Bold" Type="FONT"/>
+            <Token Name="$StartPanelFont$" Value="Franklin Gothic Medium, 20" Type="FONT"/>
+            <Token Name="$StartButtonFont$" Value="Franklin Gothic Medium, 20, italic" Type="FONT"/>
+         </Substitution>
+      </Font>
+   </ColorScheme>
+</Root>

@@ -1,0 +1,419 @@
+<style resid=main>
+DUIListView [id=atom(listview)]
+{
+contentalign: middlecenter;
+fontsize: sysmetric(-16);
+fontweight: sysmetric(-17);
+fontstyle: sysmetric(-18);
+fontface: sysmetricstr(6);
+}
+DUIAxHost [id=atom(preview)]
+{
+contentalign: middlecenter;
+borderthickness: rect(5rp,5rp,5rp,5rp);
+bordercolor: rgb(238,242,251);
+}
+Element
+{
+background: argb(0,0,0,0);
+}
+Element [id=atom(blockade)]
+{
+background: rgb(99,117,214);
+borderthickness: rect(0rp,0rp,1rp,1rp);
+bordercolor: white;
+}
+Element [id=atom(blockadeaccent)]
+{
+background: gradient(argb(0,148,187,255), argb(0,99,117,214), 1);
+}
+Element [id=atom(blockadeclient)]
+{
+contentalign:  bottomright;
+padding: rect (10rp,0rp,0rp,0rp);
+}
+Element [id=atom(blockadetitle)]
+{
+fontface: rcstr(2);
+fontsize: rcint(18)pt;
+fontweight: rcint(11);
+foreground: rgb(214,223,245);
+background: argb(0,0,0,0);
+padding: rect (0rp,20rp,10rp,0rp);
+contentalign: wrapleft;
+}
+Element [id=atom(blockademessage)]
+{
+fontface: rcstr(2);
+fontsize: rcint(17)pt;
+fontweight: rcint(12);
+foreground: white;
+background: argb(0,0,0,0);
+padding: rect (1rp,15rp,10rp,0rp);
+contentalign: wrapleft;
+}
+Element [id=atom(blockadeclear)]
+{
+margin: rect(0rp,20rp,0rp,0rp);
+}
+Button [id=atom(blockadeclearbutton)][keyfocused]
+{
+contentalign: focusrect;
+}
+Element [id=atom(blockadecleartext)]
+{
+fontface: rcstr(1);
+fontsize: rcint(15)pt;
+fontweight: rcint(10);
+foreground: white;
+background: argb(0,0,0,0);
+contentalign: wrapleft;
+padding: rect (3rp,0rp,0rp,0rp);
+}
+Element [id=atom(blockadecleartext)][mousefocused]
+{
+cursor: hand;
+fontstyle: underline;
+}
+</style>
+<style resid=mainsectionss>
+element
+{
+background: argb(0,0,0,0);
+}
+expando
+{
+fontface: rcstr(1);
+fontsize: rcint(15)pt;
+margin: rect(0rp,5rp,0rp,0rp);
+animation: rectanglev | s | fast;
+background: argb(0,0,0,0);
+}
+button
+{
+cursor: hand;
+}
+button [keyfocused]
+{
+contentalign: focusrect;
+}
+button [id=atom(header)]
+{
+background: rcbmp(110,6,#FF00FF,0,0,1,0);
+borderthickness: rect(2,2,2,0);
+foreground: white;
+fontweight: rcint(10);
+padding: rect(10,0,0,0);
+animation: rectanglev | s | fast;
+}
+element [id=atom(title)]
+{
+contentalign: middleleft;
+padding: rect(0rp,0rp,4rp,0rp);
+animation: rectanglev | s | fast;
+}
+element [id=atom(title)][keyfocused]
+{
+foreground: white;
+}
+element [id=atom(title)][mousefocused]
+{
+foreground: rgb(66,142,255);
+}
+element [id=atom(arrow)]
+{
+content: rcbmp(106,2,255,0,0,0,0);
+animation: rectanglev | s | fast;
+}
+element [id=atom(arrow)][selected]
+{
+content: rcbmp(104,2,255,0,0,0,0);
+}
+element [id=atom(arrow)][mousefocused]
+{
+content: rcbmp(107,2,255,0,0,0,0);
+}
+element [id=atom(arrow)][selected][mousefocused]
+{
+content: rcbmp(105,2,255,0,0,0,0);
+}
+clipper
+{
+alpha: 0;
+background: argb(0,0,0,0);
+animation: alpha | rectanglev | s | fast;
+}
+clipper [selected]
+{
+alpha: 255;
+}
+element [id=atom(watermark)]
+{
+background: rgb(239, 243, 255);
+contentalign: bottomright;
+animation: rectanglev | s | fast;
+}
+tasklist [id=atom(tasklist)]
+{
+background: argb(0,0,0,0);
+borderthickness: rect(1,0,1,1);
+bordercolor: white;
+padding: rect(12rp,10rp,12rp,10rp);
+animation: rectanglev | s | fast;
+}
+</style>
+<style resid=mainsectiontaskss>
+destinationtask
+{
+margin: rect(0rp,4rp,0rp,0rp);
+}
+actiontask
+{
+margin: rect(0rp,4rp,0rp,0rp);
+}
+button
+{
+background: argb(0,0,0,0);
+foreground: rgb(33,93,198);
+contentalign: wrapleft;
+margin: rect(0rp,4rp,0rp,0rp);
+}
+button [keyfocused]
+{
+contentalign: focusrect;
+}
+button [mousefocused]
+{
+cursor: hand;
+fontstyle: underline;
+}
+element
+{
+background: argb(0,0,0,0);
+}
+element [id=atom(title)]
+{
+contentalign: wrapleft;
+padding: rect(6rp,0rp,4rp,0rp);
+}
+element [id=atom(title)][mousefocused]
+{
+foreground: rgb(66,142,255);
+}
+</style>
+<style resid=sectionss>
+expando
+{
+fontface: rcstr(1);
+fontsize: rcint(15)pt;
+margin: rect(0rp,15rp,0rp,15rp);
+animation: rectanglev | s | fast;
+background: argb(0,0,0,0);
+}
+button
+{
+background: rcbmp(112,6,#FF00FF,0,0,1,0);
+foreground: rgb(33,93,198);
+fontweight: rcint(10);
+padding: rect(10rp,0rp,1rp,0rp);
+borderthickness: rect(2,2,2,0);
+bordercolor: rgb(198, 211,247);
+cursor: hand;
+animation: rectanglev | s | fast;
+}
+button [keyfocused]
+{
+contentalign: focusrect;
+}
+element
+{
+background: argb(0,0,0,0);
+}
+element [id=atom(title)]
+{
+contentalign: middleleft;
+animation: rectanglev | s | fast;
+}
+element [id=atom(title)][mousefocused]
+{
+foreground: rgb(66,142,255);
+}
+element [id=atom(arrow)]
+{
+content: rcbmp(102,2,255,0,0,0,0);
+animation: rectanglev | s | fast;
+}
+element [id=atom(arrow)][selected]
+{
+content: rcbmp(100,2,255,0,0,0,0);
+}
+element [id=atom(arrow)][mousefocused]
+{
+content: rcbmp(103,2,255,0,0,0,0);
+}
+element [id=atom(arrow)][selected][mousefocused]
+{
+content: rcbmp(101,2,255,0,0,0,0);
+}
+clipper
+{
+alpha: 0;
+background: argb(0,0,0,0);
+animation: alpha | rectanglev | s | fast;
+}
+clipper [selected]
+{
+alpha: 255;
+}
+tasklist [id=atom(tasklist)]
+{
+background: rgb(214,223, 247);
+borderthickness: rect(1,0,1,1);
+bordercolor: white;
+padding: rect(12rp,10rp,12rp,10rp);
+animation: rectanglev | s | fast;
+}
+</style>
+<style resid=sectiontaskss>
+destinationtask
+{
+margin: rect(0rp,4rp,0rp,0rp);
+}
+actiontask
+{
+margin: rect(0rp,4rp,0rp,0rp);
+}
+button
+{
+contentalign: wrapleft;
+foreground: rgb(33,93,198);
+background: argb(0,0,0,0);
+}
+button [keyfocused]
+{
+contentalign: focusrect;
+}
+button [mousefocused]
+{
+cursor: hand;
+fontstyle: underline;
+}
+element
+{
+background: argb(0,0,0,0);
+}
+element [id=atom(title)]
+{
+contentalign: wrapleft;
+padding: rect(6rp,0rp,4rp,0rp);
+}
+element [id=atom(title)][mousefocused]
+{
+foreground: rgb(66,142,255);
+}
+</style>
+<style resid=taskpane>
+element [id=atom(sectionlist)]
+{
+background: gradient(argb(0,123,162,231), argb(0,99,117,214), 1);
+padding: rect(12rp,12rp,12rp,12rp);
+borderthickness: rect(1,0,0,1);
+bordercolor: white;
+}
+scrollbar
+{
+layoutpos: ninebottom;
+}
+scrollbar [vertical]
+{
+layoutpos: nineright;
+}
+viewer
+{
+layoutpos: nineclient;
+}
+thumb
+{
+background: dtb(handlemap(1), 3, 1);
+content: dtb(handlemap(1), 9, 1);
+contentalign: middlecenter;
+}
+thumb [mousefocused]
+{
+background: dtb(handlemap(1), 3, 2);
+content: dtb(handlemap(1), 9, 2);
+}
+thumb [captured]
+{
+background: dtb(handlemap(1), 3, 3);
+content: dtb(handlemap(1), 9, 3);
+}
+repeatbutton [id=atom(lineup)]
+{
+background: dtb(handlemap(1), 1, 1);
+width: sysmetric(2);
+height: sysmetric(20);
+}
+repeatbutton [id=atom(lineup)][mousefocused]
+{
+background: dtb(handlemap(1), 1, 2);
+}
+repeatbutton [id=atom(lineup)][pressed]
+{
+background: dtb(handlemap(1), 1, 3);
+}
+repeatbutton [id=atom(linedown)]
+{
+background: dtb(handlemap(1), 1, 5);
+width: sysmetric(2);
+height: sysmetric(20);
+}
+repeatbutton [id=atom(linedown)][mousefocused]
+{
+background: dtb(handlemap(1), 1, 6);
+}
+repeatbutton [id=atom(linedown)][pressed]
+{
+background: dtb(handlemap(1), 1, 7);
+}
+repeatbutton [id=atom(pageup)]
+{
+background: dtb(handlemap(1), 7, 1);
+}
+repeatbutton [id=atom(pageup)][mousefocused]
+{
+background: dtb(handlemap(1), 7, 2);
+}
+repeatbutton [id=atom(pageup)][pressed]
+{
+background: dtb(handlemap(1), 7, 3);
+}
+repeatbutton [id=atom(pagedown)]
+{
+background: dtb(handlemap(1), 6, 1);
+}
+repeatbutton [id=atom(pagedown)][mousefocused]
+{
+background: dtb(handlemap(1), 6, 2);
+}
+repeatbutton [id=atom(pagedown)][pressed]
+{
+background: dtb(handlemap(1), 6, 3);
+}
+</style>
+<style resid=NameSpaceItemInfoList>
+NameSpaceItemInfo
+{
+contentalign: wrapleft;
+background: argb(0,0,0,0);
+margin: rect(0rp,5rp,0rp,0rp);
+}
+NameSpaceItemInfo [id=atom(InfoName)]
+{
+fontweight: rcint(10);
+}
+NameSpaceItemInfo [id=atom(InfoType)]
+{
+margin: rect(0rp,0rp,0rp,0rp);
+}
+</style>

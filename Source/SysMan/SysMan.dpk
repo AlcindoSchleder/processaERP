@@ -1,0 +1,64 @@
+package SysMan;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerenciador do Sistema Processa'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+{$DEFINE MOD_SYSMAN}
+
+requires
+  ProcScr,
+  CmmProc,
+  processa,
+  RxCtl7,
+  vcl,
+  rtl,
+  VclSmp,
+  VirtualTreesD7,
+  vcljpg,
+  V103_D70,
+  designide,
+  vclactnband,
+  vcldb;
+
+contains
+  mSysMan in 'mSysMan.pas' {dmSysMan: TDataModule},
+  AltSenhas in 'AltSenhas.pas' {AltSenha},
+  ArqCnst in 'ArqCnst.pas',
+  ArqStr in 'Arqstr.pas',
+  CadAce in 'CadAce.pas' {CdAcessos},
+  ManArqSql in 'ManArqSql.pas',
+  CadPrg in 'CadPrg.pas' {CdProgramas},
+  CadProg in 'CadProg.pas' {frmPrograms},
+  CadModls in 'CadModls.pas' {frmModules},
+  mSysHist in '..\SysBr\mSysHist.pas' {dmHistoric: TDataModule},
+  CadEmpr in 'CadEmpr.pas' {CdEmpresa},
+  CadParEmpr in 'CadParEmpr.pas' {CdParametros},
+  CadTDoc in 'CadTDoc.pas' {CdTypeDocs},
+  CadMsk in 'CadMsk.pas' {CdMasks},
+  CadMsg in 'CadMsg.pas' {CdMessage},
+  CadParGlb in 'CadParGlb.pas' {CdParamGlobal},
+  CnsHist in 'CnsHist.pas' {frmViewHistoric};
+
+end.

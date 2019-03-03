@@ -1,0 +1,59 @@
+package CmmProc;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Units comuns do Processa'}
+{$IMPLICITBUILD OFF}
+
+requires
+  dbexpress,
+  VirtualTreesD7,
+  vcljpg,
+  rtl,
+  vcldb,
+  processa,
+  vcl,
+  JvCoreD7R,
+  Jcl,
+  JvSystemD7R,
+  JvCustomD7R,
+  dbrtl;
+
+contains
+  FuncoesDB in 'FuncoesDB.pas',
+  SqlComm in 'SqlComm.pas',
+  Funcoes in 'Funcoes.pas',
+  PrcDBInfo in 'PrcDBInfo.pas',
+  PrcIBFBInfo in 'PrcIBFBInfo.pas',
+  UnitRsc_pt in 'UnitRsc_pt.pas',
+  Ovo in 'Ovo.pas' {frmEgg},
+  SelEmpr in 'SelEmpr.pas' {SelEmpresa},
+  Sobre in 'Sobre.pas' {frmAboutProcessa},
+  AltPass in 'AltPass.pas' {AltPassword},
+  Autor in 'Autor.pas' {frmAuthor},
+  Dado in 'Dado.pas' {Dados: TDataModule},
+  uMonitor in 'uMonitor.pas' {frmMonitor},
+  PopUpText in 'PopUpText.pas' {frmMemo},
+  ProcIE in 'ProcIE.pas';
+
+end.

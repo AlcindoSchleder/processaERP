@@ -1,0 +1,2953 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<ROOT>
+   <Substitution>
+      <Token Name="$ButtonFace$" Value="236 233 216" Type="COLOR"/>
+      <Token Name="$ControlFill$" Value="255 255 255" Type="COLOR"/>
+      <Token Name="$ControlBorder$" Value="127 157 185" Type="COLOR"/>
+      <Token Name="$ControlDisabledFill$" Value="235 235 228" Type="COLOR"/>
+      <Token Name="$ControlDisabledBorder$" Value="201 199 186" Type="COLOR"/>
+      <Token Name="$TextDisabled$" Value="161 161 146" Type="COLOR"/>
+      <Token Name="$TextProgramMenu$" Value="55 55 56" Type="COLOR"/>
+      <Token Name="$TextToolbarHot$" Value="255 255 255" Type="COLOR"/>
+      <Token Name="$TextTaskBand$" Value="255 255 255" Type="COLOR"/>
+      <Token Name="$EdgeShadowColor$" Value="172 168 153" Type="COLOR"/>
+   </Substitution>
+   <GROUP Name="General">
+      <CLASS Name="Globals">
+         <Property Name="EdgeDkShadowColor" Value="113 111 100"/>
+         <Property Name="EdgeFillColor" Value="$ButtonFace$"/>
+         <Property Name="EdgeHighLightColor" Value="255 255 255"/>
+         <Property Name="EdgeLightColor" Value="241 239 226"/>
+         <Property Name="EdgeShadowColor" Value="$EdgeShadowColor$"/>
+      </CLASS>
+      <CLASS Name="SysMetrics">
+         <Property Name="ActiveCaption" Value="0 84 227"/>
+         <Property Name="Background" Value="0 78 152"/>
+         <Property Name="Btnface" Value="$ButtonFace$"/>
+         <Property Name="BtnHighlight" Value="255 255 255"/>
+         <Property Name="BtnShadow" Value="172 168 153"/>
+         <Property Name="CaptionBarHeight" Value="$CaptionBarHeight$"/>
+         <Property Name="CaptionFont" Value="$CaptionFont$"/>
+         <Property Name="CaptionText" Value="255 255 255"/>
+         <Property Name="CssName" Value="cpwebvw.css"/>
+         <Property Name="DkShadow3d" Value="113 111 100"/>
+         <Property Name="FlatMenus" Value="true"/>
+         <Property Name="GradientActiveCaption" Value="61 149 255"/>
+         <Property Name="GradientInactiveCaption" Value="157 185 235"/>
+         <Property Name="GrayText" Value="172 168 153"/>
+         <Property Name="Highlight" Value="49 106 197"/>
+         <Property Name="HighlightText" Value="255 255 255"/>
+         <Property Name="HotTracking" Value="0 0 128"/>
+         <Property Name="IconTitleFont" Value="$MenuFont$"/>
+         <Property Name="InactiveCaption" Value="122 150 223"/>
+         <Property Name="InactiveCaptionText" Value="216 228 248"/>
+         <Property Name="Light3d" Value="241 239 226"/>
+         <Property Name="Menu" Value="255 255 255"/>
+         <Property Name="MenuBar" Value="$ButtonFace$"/>
+         <Property Name="MenuFont" Value="$MenuFont$"/>
+         <Property Name="MenuHilight" Value="49 106 197"/>
+         <Property Name="MenuText" Value="0 0 0"/>
+         <Property Name="MinColorDepth" Value="15"/>
+         <Property Name="MsgBoxFont" Value="$MenuFont$"/>
+         <Property Name="ScrollbarHeight" Value="$ScrollBarHeight$"/>
+         <Property Name="ScrollbarWidth" Value="$ScrollBarWidth$"/>
+         <Property Name="SmallCaptionFont" Value="$SmallCaptionFont$"/>
+         <Property Name="SMCaptionBarHeight" Value="$SmallCaptionBarHeight$"/>
+         <Property Name="SMCaptionBarWidth" Value="$SmallCaptionBarWidth$"/>
+         <Property Name="StatusFont" Value="$MenuFont$"/>
+         <Property Name="Window" Value="255 255 255"/>
+         <Property Name="XmlName" Value="default.xml"/>
+      </CLASS>
+      <CLASS Name="Button">
+         <PART Name="Checkbox">
+            <Property Name="AccentColorHint" Value="250 196 88"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="29 82 129"/>
+            <Property Name="FillColorHint" Value="33 161 33"/>
+            <Property Name="ImageCount" Value="12"/>
+            <Property Name="ImageFile1" Value="CheckBox13.png"/>
+            <Property Name="ImageFile2" Value="CheckBox16.png"/>
+            <Property Name="ImageFile3" Value="CheckBox25.png"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="118"/>
+            <Property Name="MinDpi3" Value="185"/>
+            <Property Name="MirrorImage" Value="false"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="SizingMargins" Value="0, 0, 0, 0"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Checkeddisabled">
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="CheckedHot"/>
+            <STATE Name="CheckedNormal"/>
+            <STATE Name="CheckedPressed"/>
+            <STATE Name="Mixeddisabled">
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="MixedHot"/>
+            <STATE Name="MixedNormal"/>
+            <STATE Name="MixedPressed"/>
+            <STATE Name="Uncheckeddisabled">
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="UnCheckedHot"/>
+            <STATE Name="UnCheckedNormal"/>
+            <STATE Name="UnCheckedPressed"/>
+         </PART>
+         <PART Name="Groupbox">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="208 208 191"/>
+            <Property Name="BorderOnly" Value="true"/>
+            <Property Name="ImageFile" Value="GroupBox.bmp"/>
+            <Property Name="NormalSize" Value="9999, 9999"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="TextColor" Value="0 70 213"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="Pushbutton">
+            <Property Name="AccentColorHint" Value="250 196 88"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="0 60 116"/>
+            <Property Name="ContentMargins" Value="3, 3, 3, 3"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="ImageCount" Value="5"/>
+            <Property Name="ImageFile" Value="button.png"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="MinSize" Value="10, 5"/>
+            <Property Name="SizingMargins" Value="8, 8, 9, 9"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="0 0 0"/>
+            <STATE Name="Defaulted">
+               <Property Name="AccentColorHint" Value="0 255 0"/>
+            </STATE>
+            <STATE Name="Disabled">
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="Hot">
+               <Property Name="TextColor" Value="0 0 0"/>
+            </STATE>
+            <STATE Name="Normal">
+               <Property Name="TextColor" Value="0 0 0"/>
+            </STATE>
+            <STATE Name="Pressed">
+               <Property Name="TextColor" Value="0 0 0"/>
+            </STATE>
+         </PART>
+         <PART Name="Radiobutton">
+            <Property Name="AccentColorHint" Value="250 196 88"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="29 82 129"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="33 161 33"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile1" Value="RadioButton13.png"/>
+            <Property Name="ImageFile2" Value="RadioButton16.png"/>
+            <Property Name="ImageFile3" Value="RadioButton25.png"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="118"/>
+            <Property Name="MinDpi3" Value="185"/>
+            <Property Name="SizingMargins" Value="0, 0, 0, 0"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Checkeddisabled">
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="CheckedHot"/>
+            <STATE Name="CheckedNormal"/>
+            <STATE Name="CheckedPressed"/>
+            <STATE Name="Uncheckeddisabled">
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="UnCheckedHot"/>
+            <STATE Name="UnCheckedNormal"/>
+            <STATE Name="UnCheckedPressed"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Combobox">
+         <Property Name="BgType" Value="BorderFill"/>
+         <Property Name="BorderColor" Value="$ControlBorder$"/>
+         <Property Name="BorderSize" Value="1"/>
+         <Property Name="FillColor" Value="$ControlFill$"/>
+         <STATE Name="Disabled">
+            <Property Name="BorderColor" Value="$ControlDisabledBorder$"/>
+            <Property Name="FillColor" Value="$ControlDisabledFill$"/>
+         </STATE>
+         <STATE Name="Hot">
+            <Property Name="BorderColor" Value="$ControlBorder$"/>
+         </STATE>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed"/>
+         <PART Name="DropDownButton">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="200 214 251"/>
+            <Property Name="GlyphImageFile" Value="ComboButtonGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ComboButton.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="3, 3, 3, 3"/>
+            <Property Name="SizingType" Value="Stretch"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Edit">
+         <Property Name="BgType" Value="BorderFill"/>
+         <Property Name="BorderColor" Value="$ControlBorder$"/>
+         <Property Name="BorderSize" Value="1"/>
+         <Property Name="FillColor" Value="$ControlFill$"/>
+         <PART Name="Caret"/>
+         <PART Name="Edittext">
+            <STATE Name="Assist"/>
+            <STATE Name="Disabled">
+               <Property Name="FillColor" Value="$ControlDisabledFill$"/>
+               <Property Name="TextColor" Value="$TextDisabled$"/>
+            </STATE>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="ReadOnly">
+               <Property Name="FillColor" Value="$ControlDisabledFill$"/>
+               <Property Name="TextColor" Value="0 0 0"/>
+            </STATE>
+            <STATE Name="Selected"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="ExplorerBar">
+         <Property Name="BgType" Value="BorderFill"/>
+         <Property Name="BorderSize" Value="0"/>
+         <Property Name="ContentMargins" Value="12, 12, 12, 12"/>
+         <Property Name="FillType" Value="VertGradient"/>
+         <Property Name="GradientColor1" Value="140 170 230"/>
+         <Property Name="GradientColor2" Value="100 135 220"/>
+         <Property Name="GradientRatio1" Value="0"/>
+         <Property Name="GradientRatio2" Value="255"/>
+         <PART Name="HeaderBackground">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="8, 8, 7, 7"/>
+            <Property Name="FillColorHint" Value="94 135 217"/>
+            <Property Name="Font" Value="$Tahoma8Bold$"/>
+            <Property Name="ImageFile" Value="ExplorerBarHeaderBackground.bmp"/>
+            <Property Name="SizingMargins" Value="202, 1, 0, 0"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="255 255 255"/>
+         </PART>
+         <PART Name="HeaderClose">
+            <Property Name="AccentColorHint" Value="255 121 95"/>
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="138 168 229"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="ExplorerBarHeaderClose.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="4, 4"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="HeaderPin">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="189 206 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarHeaderPin.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="6, 4"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+            <STATE Name="SelectedHot"/>
+            <STATE Name="SelectedNormal"/>
+            <STATE Name="SelectedPressed"/>
+         </PART>
+         <PART Name="IEBarMenu">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="165 187 228"/>
+            <Property Name="FillColorHint" Value="236 240 249"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="IE_PersonalBarMenu.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="3, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="NormalGroupBackground">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColor" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="8, 8, 7, 7"/>
+            <Property Name="FillColor" Value="214 223 247"/>
+            <Property Name="Font" Value="$Tahoma8$"/>
+            <Property Name="ImageFile" Value="NormalGroupBackground.bmp"/>
+            <Property Name="SizingMargins" Value="3, 3, 3, 3"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="38 92 192"/>
+         </PART>
+         <PART Name="NormalGroupCollapse">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="165 187 228"/>
+            <Property Name="FillColorHint" Value="236 240 249"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="NormalGroupCollapse.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="3, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="NormalGroupExpand">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="165 187 228"/>
+            <Property Name="FillColorHint" Value="236 240 249"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="NormalGroupExpand.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="3, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="NormalGroupHead">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="8, 8, 7, 7"/>
+            <Property Name="FillColorHint" Value="240 243 251"/>
+            <Property Name="Font" Value="$Tahoma8Bold$"/>
+            <Property Name="ImageFile" Value="NormalGroupHead.bmp"/>
+            <Property Name="SizingMargins" Value="3, 106, 3, 1"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="93 198 33"/>
+            <Property Name="Transparent" Value="true"/>
+         </PART>
+         <PART Name="SpecialGroupBackground">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="8, 8, 7, 7"/>
+            <Property Name="FillColorHint" Value="239 243 255"/>
+            <Property Name="Font" Value="$Tahoma8$"/>
+            <Property Name="ImageFile" Value="SpecialGroupBackground.bmp"/>
+            <Property Name="SizingMargins" Value="3, 3, 3, 3"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="38 92 192"/>
+         </PART>
+         <PART Name="SpecialGroupCollapse">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="70 114 205"/>
+            <Property Name="FillColorHint" Value="36 89 195"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="SpecialGroupCollapse.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="3, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SpecialGroupExpand">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="70 114 205"/>
+            <Property Name="FillColorHint" Value="36 89 195"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="SpecialGroupExpand.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="3, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="true"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SpecialGroupHead">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="8, 8, 7, 7"/>
+            <Property Name="FillColor" Value="2 72 178"/>
+            <Property Name="Font" Value="$Tahoma8Bold$"/>
+            <Property Name="ImageFile" Value="SpecialGroupHead.bmp"/>
+            <Property Name="SizingMargins" Value="3, 106, 3, 1"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="255 255 255"/>
+            <Property Name="Transparent" Value="true"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Header">
+         <Property Name="Bgtype" Value="imagefile"/>
+         <Property Name="ImageFile" Value="ListviewHeaderBackground.bmp"/>
+         <Property Name="SizingMargins" Value="0, 0, 0, 3"/>
+         <Property Name="SizingType" Value="tile"/>
+         <PART Name="HeaderItem">
+            <Property Name="AccentColorHint" Value="252 194 71"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="3, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="250 248 243"/>
+            <Property Name="ImageCount" Value="5"/>
+            <Property Name="ImageFile" Value="ListViewHeader.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="8, 8, 3, 4"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="Transparentcolor" Value="255 0 0"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="HeaderItemLeft">
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="HeaderItemRight">
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="HeaderSortArrow">
+            <STATE Name="SortedDown"/>
+            <STATE Name="SortedUp"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Listbox">
+         <Property Name="BgType" Value="BorderFill"/>
+         <Property Name="BorderColor" Value="$ControlBorder$"/>
+         <Property Name="BorderSize" Value="1"/>
+         <Property Name="FillColor" Value="$ControlFill$"/>
+      </CLASS>
+      <CLASS Name="ListView">
+         <Property Name="BgType" Value="BorderFill"/>
+         <Property Name="BorderColor" Value="$ControlBorder$"/>
+         <Property Name="BorderSize" Value="1"/>
+         <Property Name="FillColor" Value="$ControlFill$"/>
+         <PART Name="EmptyText"/>
+         <PART Name="ListDetail"/>
+         <PART Name="ListGroup"/>
+         <PART Name="ListItem">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+            <STATE Name="SelectedNotFocused"/>
+         </PART>
+         <PART Name="ListSortedDetail"/>
+      </CLASS>
+      <CLASS Name="Progress">
+         <Property Name="BgType" Value="borderFill"/>
+         <Property Name="BorderColor" Value="235 235 228"/>
+         <Property Name="Bordersize" Value="1"/>
+         <Property Name="FillColor" Value="46 211 49"/>
+         <Property Name="FillType" Value="RadialGradient"/>
+         <Property Name="ProgressChunkSize" Value="6"/>
+         <Property Name="ProgressSpaceSize" Value="2"/>
+         <PART Name="Bar">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="104 104 104"/>
+            <Property Name="FillColorHint" Value="255 255 255"/>
+            <Property Name="ImageFile" Value="ProgressTrack.bmp"/>
+            <Property Name="MinSize" Value="10,10"/>
+            <Property Name="NormalSize" Value="100, 18"/>
+            <Property Name="SizingMargins" Value="4, 4, 3, 3"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="SourceShrink" Value="true"/>
+         </PART>
+         <PART Name="BarVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="104 104 104"/>
+            <Property Name="FillColorHint" Value="255 255 255"/>
+            <Property Name="ImageFile" Value="ProgressTrackVert.bmp"/>
+            <Property Name="SizingMargins" Value="3, 3, 4, 4"/>
+            <Property Name="SizingType" Value="tile"/>
+         </PART>
+         <PART Name="Chunk">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="46 211 49"/>
+            <Property Name="ImageFile" Value="ProgressChunk.bmp"/>
+            <Property Name="SizingMargins" Value="0, 0, 6, 5"/>
+            <Property Name="SizingType" Value="tile"/>
+         </PART>
+         <PART Name="ChunkVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="46 211 49"/>
+            <Property Name="ImageFile" Value="ProgressChunkVert.bmp"/>
+            <Property Name="SizingMargins" Value="6, 5, 0, 0"/>
+            <Property Name="SizingType" Value="tile"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Rebar">
+         <Property Name="Bgtype" Value="imagefile"/>
+         <Property Name="FillColorHint" Value="241 243 239"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="ImageFile" Value="ToolbarBackground.bmp"/>
+         <Property Name="Sizingmargins" Value="0, 0, 0, 4"/>
+         <Property Name="Sizingtype" Value="stretch"/>
+         <Property Name="TextColor" Value="127 124 115"/>
+         <PART Name="Band">
+            <Property Name="Bgtype" Value="none"/>
+            <Property Name="ContentMargins" Value="2, 0, 0, 0"/>
+            <Property Name="EdgeShadowColor" Value="$EdgeShadowColor$"/>
+         </PART>
+         <PART Name="Chevron">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="0 0 0"/>
+            <Property Name="GlyphImageFile" Value="Chevron.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="VAlign" Value="Top"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ChevronVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="0 0 0"/>
+            <Property Name="GlyphImageFile" Value="Chevron.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="VAlign" Value="Top"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Gripper">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="2, 1, 0, 0"/>
+            <Property Name="FillColorHint" Value="171 167 149"/>
+            <Property Name="ImageFile" Value="ToolbarGripper.bmp"/>
+            <Property Name="SizingMargins" Value="2, 1, 4, 2"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="true"/>
+         </PART>
+         <PART Name="GripperVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="1, 2, 0, 0"/>
+            <Property Name="FillColorHint" Value="171 167 149"/>
+            <Property Name="ImageFile" Value="ToolbarGripperVert.bmp"/>
+            <Property Name="SizingMargins" Value="3, 3, 2, 1"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="true"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="ScrollBar">
+         <PART Name="ArrowBtn">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 3, 3"/>
+            <Property Name="FillColorHint" Value="200 214 251"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="16"/>
+            <Property Name="ImageFile" Value="ScrollArrows.bmp"/>
+            <Property Name="ImageFile1" Value="ScrollArrowGlyphsSmall.bmp"/>
+            <Property Name="ImageFile2" Value="ScrollArrowGlyphs.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="ImageSelectType" Value="size"/>
+            <Property Name="MinSize1" Value="7, 7"/>
+            <Property Name="MinSize2" Value="9, 9"/>
+            <Property Name="NormalSize" Value="7, 10"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="SourceShrink" Value="True"/>
+            <Property Name="TrueSizeScalingType" Value="size"/>
+            <Property Name="TrueSizeStretchMark" Value="150"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="DownDisabled"/>
+            <STATE Name="DownHot"/>
+            <STATE Name="DownNormal"/>
+            <STATE Name="DownPressed"/>
+            <STATE Name="LeftDisabled"/>
+            <STATE Name="LeftHot"/>
+            <STATE Name="LeftNormal"/>
+            <STATE Name="LeftPressed"/>
+            <STATE Name="RightDisabled"/>
+            <STATE Name="RightHot"/>
+            <STATE Name="RightNormal"/>
+            <STATE Name="RightPressed"/>
+            <STATE Name="UpDisabled"/>
+            <STATE Name="UpHot"/>
+            <STATE Name="UpNormal"/>
+            <STATE Name="UpPressed"/>
+         </PART>
+         <PART Name="GripperHorz">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollThumbGripperHorizontal.BMP"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="GripperVert">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollThumbGripperVertical.BMP"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="LowerTrackHorz">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="198 213 253"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollShaftHorizontal.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="0, 0, 1, 1"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="LowerTrackVert">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="198 213 253"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollShaftVertical.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="1, 1, 0, 0"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SizeBox">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="184 180 163"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="ResizeGrip2.bmp"/>
+            <Property Name="SizingType" Value="trueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+            <Property Name="VAlign" Value="Bottom"/>
+         </PART>
+         <PART Name="ThumbBtnHorz">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="4, 4, 0, 0"/>
+            <Property Name="FillColorHint" Value="198 213 253"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollThumbHorizontal.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbBtnVert">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 4"/>
+            <Property Name="FillColorHint" Value="198 213 253"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollThumbVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="UpperTrackHorz">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="198 213 253"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollShaftHorizontal.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="0, 0, 1, 1"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="UpperTrackVert">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="198 213 253"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="ScrollShaftVertical.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="1, 1, 0, 0"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Spin">
+         <Property Name="Bgtype" Value="imagefile"/>
+         <Property Name="ImageCount" Value="1"/>
+         <Property Name="ImageFile" Value="FieldOutlineBlue.bmp"/>
+         <Property Name="SizingMargins" Value="2, 2, 2, 2"/>
+         <Property Name="SizingType" Value="tile"/>
+         <PART Name="Down">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="200 214 251"/>
+            <Property Name="GlyphImageFile" Value="SpinDownGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="SpinButtonBackgroundDown.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="tile"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Downhorz">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="200 214 251"/>
+            <Property Name="GlyphImageFile" Value="SpinLeftGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="SpinButtonBackgroundLeft.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Up">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="200 214 251"/>
+            <Property Name="GlyphImageFile" Value="SpinUpGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="SpinButtonBackgroundUp.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Uphorz">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="200 214 251"/>
+            <Property Name="GlyphImageFile" Value="SpinRightGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="SpinButtonBackgroundRight.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="StartPanel">
+         <Property Name="Bgtype" Value="none"/>
+         <Property Name="DefaultPaneSize" Value="0, 0, 380, 440"/>
+         <PART Name="Logoff">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 2"/>
+            <Property Name="DefaultPaneSize" Value="0, 0, 380, 40"/>
+            <Property Name="FillColorHint" Value="37 119 223"/>
+            <Property Name="HotTracking" Value="255 255 255"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="StartPanelLogoffBackground.bmp"/>
+            <Property Name="SizingMargins" Value="49, 47, 0, 38"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="255 255 255"/>
+         </PART>
+         <PART Name="LogoffButtons">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="StartPanelLogoffButtons.png"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Hot">
+               <Property Name="BgType" Value="ImageFile"/>
+               <Property Name="ImageCount" Value="1"/>
+               <Property Name="ImageFile" Value="StartPanelLogoffButtonsHot.png"/>
+               <Property Name="SizingType" Value="TrueSize"/>
+               <Property Name="Transparent" Value="True"/>
+            </STATE>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="MorePrograms">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="8, 8, 0, 6"/>
+            <Property Name="DefaultPaneSize" Value="0, 0, 190, 30"/>
+            <Property Name="Font" Value="$Tahoma8Bold$"/>
+            <Property Name="HotTracking" Value="48 112 208"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="StartPanelMoreProgBackGround.BMP"/>
+            <Property Name="SizingMargins" Value="3, 0, 0, 1"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="$TextProgramMenu$"/>
+         </PART>
+         <PART Name="MoreProgramsArrow">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="108 207 108"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="StartPanelMoreProgArrow.png"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <STATE Name="Hot">
+               <Property Name="BgType" Value="ImageFile"/>
+               <Property Name="FillColorHint" Value="107 239 107"/>
+               <Property Name="ImageCount" Value="1"/>
+               <Property Name="ImageFile" Value="StartPanelMoreProgArrowHot.png"/>
+               <Property Name="SizingType" Value="TrueSize"/>
+            </STATE>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="PlacesList">
+            <Property Name="BgType" Value="imageFile"/>
+            <Property Name="ContentMargins" Value="4 6 9 5"/>
+            <Property Name="DefaultPaneSize" Value="0, 0, 190, 336"/>
+            <Property Name="FillColorHint" Value="211 229 250"/>
+            <Property Name="HotTracking" Value="80 150 248"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="StartPanelPlacesBackground.bmp"/>
+            <Property Name="SizingMargins" Value="172, 7, 3, 1"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="10 36 106"/>
+         </PART>
+         <PART Name="PlacesListSeparator">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ImageFile" Value="StartPlacesSeparator.png"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+         </PART>
+         <PART Name="Preview"/>
+         <PART Name="ProgList">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="CaptionText" Value="128 128 128"/>
+            <Property Name="ContentMargins" Value="6 4 9 5"/>
+            <Property Name="DefaultPaneSize" Value="0, 0, 190, 306"/>
+            <Property Name="FillColorHint" Value="204 214 235"/>
+            <Property Name="HotTracking" Value="48 112 208"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="StartPanelMFUBackground.bmp"/>
+            <Property Name="SizingMargins" Value="2, 153, 3, 0"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="$TextProgramMenu$"/>
+         </PART>
+         <PART Name="ProgListSeparator">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ImageFile" Value="StartProgramsSeparator.png"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+         </PART>
+         <PART Name="UserPane">
+            <Property Name="BgType" Value="Imagefile"/>
+            <Property Name="DefaultPaneSize" Value="0, 0, 380, 64"/>
+            <Property Name="FillColorHint" Value="31 113 216"/>
+            <Property Name="Font" Value="$StartPanelFont$"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="StartUserPanel.bmp"/>
+            <Property Name="ImageLayout" Value="Horizontal"/>
+            <Property Name="SizingMargins" Value="59, 60, 62, 0"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="TextColor" Value="255 255 255"/>
+            <Property Name="Textshadowcolor" Value="9 66 139"/>
+            <Property Name="TEXTSHADOWOFFSET" Value="2, 2"/>
+            <Property Name="TextShadowType" Value="continuous"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="UserPicture" Value="True"/>
+         </PART>
+         <PART Name="UserPicture">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="8, 6, 8, 6"/>
+            <Property Name="FillColorHint" Value="204 214 235"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="UserTileBackground.png"/>
+            <Property Name="SizingMargins" Value="6, 10, 6, 10"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Status">
+         <Property Name="Bgtype" Value="imagefile"/>
+         <Property Name="FillColorHint" Value="$ButtonFace$"/>
+         <Property Name="ImageCount" Value="1"/>
+         <Property Name="ImageFile" Value="StatusBackground.bmp"/>
+         <Property Name="SizingMargins" Value="50, 17, 5, 9"/>
+         <Property Name="SizingType" Value="Tile"/>
+         <PART Name="Gripper">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="0,0,0,0"/>
+            <Property Name="FillColorHint" Value="184 180 163"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="ResizeGrip2.bmp"/>
+            <Property Name="SizingType" Value="trueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+            <Property Name="VAlign" Value="Bottom"/>
+         </PART>
+         <PART Name="GripperPane">
+            <Property Name="Bgtype" Value="none"/>
+         </PART>
+         <PART Name="Pane">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="StatusPane.bmp"/>
+            <Property Name="SizingMargins" Value="0, 2, 2, 2"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Tab">
+         <Property Name="BgType" Value="borderFill"/>
+         <Property Name="Bordersize" Value="0"/>
+         <Property Name="FillColor" Value="$ButtonFace$"/>
+         <Property Name="FillType" Value="Solid"/>
+         <PART Name="Body">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="251 251 253"/>
+            <Property Name="ImageFile1" Value="TabBackground.bmp"/>
+            <Property Name="ImageFile2" Value="TabBackground133.bmp"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="164"/>
+            <Property Name="StockImageFile" Value="TabBackground.bmp"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+         </PART>
+         <PART Name="Pane">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 155 156"/>
+            <Property Name="FillColorHint" Value="251 251 253"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="TabPaneEdge.bmp"/>
+            <Property Name="SizingMargins" Value="2, 4, 2, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+         </PART>
+         <PART Name="TabItem">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItem.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TabItemBothEdge">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemBoth.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TabItemLeftEdge">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemLeft.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TabItemRightEdge">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemRight.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TopTabItem">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemTop.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TopTabItemBothEdge">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemTopBoth.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TopTabItemLeftEdge">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemTopLeft.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+         <PART Name="TopTabItemRightEdge">
+            <Property Name="AccentColorHint" Value="255 200 60"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="145 167 180"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="248 248 246"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="tabItemTopRight.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 6, 6, 6"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="TaskBand">
+         <PART Name="FlashButton">
+            <Property Name="AccentColorHint" Value="255 192 91"/>
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 4"/>
+            <Property Name="FillColorHint" Value="56 130 234"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskBandFlashButton.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+         </PART>
+         <PART Name="FlashButtonGroupMenu">
+            <Property Name="AccentColorHint" Value="255 192 91"/>
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 4"/>
+            <Property Name="FillColorHint" Value="56 130 234"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskBandFlashButtonGroupMenu.bmp"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+         </PART>
+         <PART Name="GroupCount">
+            <Property Name="Font" Value="$Tahoma8Bold$"/>
+            <Property Name="TextColor" Value="255 204 109"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="TaskBar">
+         <PART Name="BackgroundBottom">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="36 94 220"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarBackground.bmp"/>
+            <Property Name="SizingMargins" Value="0, 0, 15, 11"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+         <PART Name="BackgroundLeft">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="36 94 220"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarBackgroundVertical.bmp"/>
+            <Property Name="SizingMargins" Value="15, 11, 0, 0"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+         <PART Name="BackgroundRight">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="36 94 220"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarBackgroundVertical.bmp"/>
+            <Property Name="SizingMargins" Value="11, 13, 0, 0"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+         <PART Name="BackgroundTop">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="36 94 220"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarBackground.bmp"/>
+            <Property Name="SizingMargins" Value="0, 0, 15, 11"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+         <PART Name="SizingBarBottom">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="50 128 231"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarSizingBarBottom.bmp"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+         <PART Name="SizingBarLeft">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="50 128 231"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarSizingBarLeft.bmp"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+         <PART Name="SizingBarRight">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="50 128 231"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarSizingBarRight.bmp"/>
+            <Property Name="SizingType" Value="Stretch"/>
+         </PART>
+         <PART Name="SizingBarTop">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="50 128 231"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarSizingBarTop.bmp"/>
+            <Property Name="SizingType" Value="Tile"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Toolbar">
+         <Property Name="BgType" Value="Borderfill"/>
+         <Property Name="Bordersize" Value="0"/>
+         <Property Name="FillColor" Value="$ButtonFace$"/>
+         <Property Name="TextColor" Value="0 0 0"/>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot"/>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <PART Name="Button">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="206 206 195"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="241 243 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="206 206 195"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="241 243 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="202 198 175"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="Separator.bmp"/>
+            <Property Name="SizingMargins" Value="5, 2, 2, 1"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+         <PART Name="SeparatorVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="202 198 175"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="SeparatorVert.bmp"/>
+            <Property Name="SizingMargins" Value="2, 1, 5, 1"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+         <PART Name="SplitButton">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="206 206 195"/>
+            <Property Name="FillColorHint" Value="241 243 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ToolbarButtonsSplit.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 2, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropdown">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="206 206 195"/>
+            <Property Name="FillColorHint" Value="241 243 239"/>
+            <Property Name="GlyphImageFile" Value="ToolbarButtonsSplitDropdownGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ToolbarButtonsSplitDropdown.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="2, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Tooltip">
+         <PART Name="Balloon">
+            <STATE Name="Link"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="BalloonTitle">
+            <STATE Name="Link"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="Close">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="Imagecount" Value="3"/>
+            <Property Name="ImageFile" Value="BalloonClose.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="Sizingtype" Value="truesize"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Standard">
+            <STATE Name="Link"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="StandardTitle">
+            <STATE Name="Link"/>
+            <STATE Name="Normal"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="TrackBar">
+         <Property Name="BgType" Value="borderFill"/>
+         <Property Name="BorderColor" Value="235 235 228"/>
+         <Property Name="Bordersize" Value="1"/>
+         <Property Name="FillColor" Value="235 235 228"/>
+         <Property Name="FillType" Value="Solid"/>
+         <STATE Name="Normal"/>
+         <PART Name="Thumb">
+            <Property Name="AccentColorHint" Value="71 196 70"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="181 196 205"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="TrackbarHorizontal.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="3, 4, 3, 4"/>
+            <Property Name="Sizingtype" Value="tile"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbBottom">
+            <Property Name="AccentColorHint" Value="71 196 70"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="181 196 205"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile1" Value="TrackBarDown13.bmp"/>
+            <Property Name="ImageFile2" Value="TrackBarDown16.bmp"/>
+            <Property Name="ImageFile3" Value="TrackBarDown25.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="118"/>
+            <Property Name="MinDpi3" Value="185"/>
+            <Property Name="SizingMargins" Value="3, 6, 6, 10"/>
+            <Property Name="Sizingtype" Value="truesize"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="Transparentcolor" Value="242 241 231"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbLeft">
+            <Property Name="AccentColorHint" Value="71 196 70"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="181 196 205"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile1" Value="TrackBarLeft13.bmp"/>
+            <Property Name="ImageFile2" Value="TrackBarLeft16.bmp"/>
+            <Property Name="ImageFile3" Value="TrackBarLeft25.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="118"/>
+            <Property Name="MinDpi3" Value="185"/>
+            <Property Name="Sizingtype" Value="truesize"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="Transparentcolor" Value="242 241 231"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbRight">
+            <Property Name="AccentColorHint" Value="71 196 70"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="181 196 205"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="TrackbarRight13.bmp"/>
+            <Property Name="ImageFile1" Value="TrackBarRight13.bmp"/>
+            <Property Name="ImageFile2" Value="TrackBarRight16.bmp"/>
+            <Property Name="ImageFile3" Value="TrackBarRight25.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="118"/>
+            <Property Name="MinDpi3" Value="185"/>
+            <Property Name="Sizingtype" Value="truesize"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="Transparentcolor" Value="242 241 231"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbTop">
+            <Property Name="AccentColorHint" Value="71 196 70"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="181 196 205"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile1" Value="TrackBarUp13.bmp"/>
+            <Property Name="ImageFile2" Value="TrackBarUp16.bmp"/>
+            <Property Name="ImageFile3" Value="TrackBarUp25.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="ImageSelectType" Value="Dpi"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="118"/>
+            <Property Name="MinDpi3" Value="185"/>
+            <Property Name="Sizingtype" Value="truesize"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="Transparentcolor" Value="242 241 231"/>
+            <Property Name="TrueSizeScalingType" Value="Dpi"/>
+            <Property Name="TrueSizeStretchMark" Value="50"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbVert">
+            <Property Name="AccentColorHint" Value="71 196 70"/>
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="181 196 205"/>
+            <Property Name="FillColorHint" Value="243 243 239"/>
+            <Property Name="Imagecount" Value="5"/>
+            <Property Name="ImageFile" Value="TrackbarVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="3, 4, 3, 4"/>
+            <Property Name="Sizingtype" Value="tile"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Focused"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Tics">
+            <Property Name="Color" Value="$TextDisabled$"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="TicsVert">
+            <Property Name="Color" Value="$TextDisabled$"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="Track">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="157 156 153"/>
+            <Property Name="FillColorHint" Value="242 241 233"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="sliderTrack.bmp"/>
+            <Property Name="SizingMargins" Value="2, 2, 2, 2"/>
+            <Property Name="Sizingtype" Value="stretch"/>
+            <STATE Name="Normal"/>
+         </PART>
+         <PART Name="TrackVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="157 156 153"/>
+            <Property Name="FillColorHint" Value="242 241 233"/>
+            <Property Name="Imagecount" Value="1"/>
+            <Property Name="ImageFile" Value="sliderTrack.bmp"/>
+            <Property Name="SizingMargins" Value="2, 2, 2, 2"/>
+            <Property Name="Sizingtype" Value="stretch"/>
+            <STATE Name="Normal"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="TreeView">
+         <Property Name="BgType" Value="BorderFill"/>
+         <Property Name="BorderColor" Value="$ControlBorder$"/>
+         <Property Name="BorderSize" Value="1"/>
+         <Property Name="FillColor" Value="$ControlFill$"/>
+         <PART Name="Branch"/>
+         <PART Name="Glyph">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="Imagecount" Value="2"/>
+            <Property Name="ImageFile" Value="treeExpandCollapse.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+         </PART>
+         <PART Name="TreeItem">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Selected"/>
+            <STATE Name="SelectedNotFocus"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Window">
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="TextShadowColor" Value="10 24 131"/>
+         <Property Name="TextShadowOffset" Value="1,1"/>
+         <Property Name="Transparent" Value="true"/>
+         <PART Name="Caption">
+            <Property Name="CaptionMargins" Value="4, 3, 0, 0"/>
+            <Property Name="ContentMargins" Value="1, 1, 1, 1"/>
+            <Property Name="ContentAlignment" Value="left"/>
+            <Property Name="FillColorHint" Value="0 84 229"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="FrameCaption.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="28, 35, 9, 17"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Active">
+               <Property Name="IconEffect" Value="Shadow"/>
+               <Property Name="TextShadowType" Value="Single"/>
+            </STATE>
+            <STATE Name="Disabled">
+               <Property Name="IconEffect" Value="Glow"/>
+               <Property Name="TextShadowType" Value="Single"/>
+            </STATE>
+            <STATE Name="Inactive">
+               <Property Name="IconEffect" Value="Alpha"/>
+               <Property Name="TextShadowType" Value="Single"/>
+            </STATE>
+         </PART>
+         <PART Name="CaptionSizingTemplate">
+            <Property Name="ContentMargins" Value="18, 18, 26, 0"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="FrameCaptionSizing.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="28, 35, 9, 17"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="0 0 0"/>
+         </PART>
+         <PART Name="CloseButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="2, 2, 2, 2"/>
+            <Property Name="FillColorHint" Value="228 93 61"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile" Value="CloseButton.png"/>
+            <Property Name="ImageFile1" Value="CloseGlyph6.bmp"/>
+            <Property Name="ImageFile2" Value="CloseGlyph9.bmp"/>
+            <Property Name="ImageFile3" Value="CloseGlyph.png"/>
+            <Property Name="ImageFile4" Value="CloseGlyph19.png"/>
+            <Property Name="ImageFile5" Value="CloseGlyph23.png"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="ImageSelectType" Value="size"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="126"/>
+            <Property Name="MinDpi3" Value="170"/>
+            <Property Name="Offset" Value="25, 5"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="Dialog">
+            <Property Name="BgType" Value="BorderFill"/>
+            <Property Name="BorderColor" Value="$ButtonFace$"/>
+            <Property Name="FillColor" Value="$ButtonFace$"/>
+         </PART>
+         <PART Name="FrameBottom">
+            <Property Name="Borderonly" Value="FALSE"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="frameBottom.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 2, 2"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="FALSE"/>
+            <STATE Name="Active"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="FrameBottomSizingTemplate"/>
+         <PART Name="FrameLeft">
+            <Property Name="Borderonly" Value="FALSE"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="frameLeft.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="2, 2, 0, 0"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="FALSE"/>
+            <STATE Name="Active"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="FrameLeftSizingTemplate"/>
+         <PART Name="FrameRight">
+            <Property Name="Borderonly" Value="FALSE"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="frameRight.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="2, 2, 0, 0"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="FALSE"/>
+            <STATE Name="Active"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="FrameRightSizingTemplate"/>
+         <PART Name="HelpButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="2, 2, 2, 2"/>
+            <Property Name="FillColorHint" Value="74 121 246"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile" Value="CaptionButton.png"/>
+            <Property Name="ImageFile1" Value="HelpGlyph6.bmp"/>
+            <Property Name="ImageFile2" Value="HelpGlyph9.bmp"/>
+            <Property Name="ImageFile3" Value="HelpGlyph.png"/>
+            <Property Name="ImageFile4" Value="HelpGlyph19.png"/>
+            <Property Name="ImageFile5" Value="HelpGlyph23.png"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="ImageSelectType" Value="size"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="126"/>
+            <Property Name="MinDpi3" Value="170"/>
+            <Property Name="MirrorImage" Value="true"/>
+            <Property Name="Offset" Value="73, 5"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="HorzScroll">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="HorzThumb">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MaxButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="2, 2, 2, 2"/>
+            <Property Name="FillColorHint" Value="74 121 246"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile" Value="CaptionButton.png"/>
+            <Property Name="ImageFile1" Value="MaximizeGlyph6.bmp"/>
+            <Property Name="ImageFile2" Value="MaximizeGlyph9.bmp"/>
+            <Property Name="ImageFile3" Value="MaximizeGlyph.bmp"/>
+            <Property Name="ImageFile4" Value="MaximizeGlyph19.bmp"/>
+            <Property Name="ImageFile5" Value="MaximizeGlyph23.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="ImageSelectType" Value="size"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="126"/>
+            <Property Name="MinDpi3" Value="170"/>
+            <Property Name="Offset" Value="49, 5"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MaxCaption">
+            <Property Name="CaptionMargins" Value="4, 3, 4, 2"/>
+            <Property Name="ContentAlignment" Value="left"/>
+            <Property Name="ContentMargins" Value="1, 1, 1, 1"/>
+            <Property Name="FillColorHint" Value="0 84 229"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="FrameMaximized.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="28, 35, 9, 17"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <STATE Name="Active">
+               <Property Name="TextShadowType" Value="Single"/>
+            </STATE>
+            <STATE Name="Disabled"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="MDICloseButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="241 239 229"/>
+            <Property Name="GlyphImageFile" Value="MDIGlyphClose.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="MDICaptionButton.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="19, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MDIHelpButton">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MDIMinButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="241 239 229"/>
+            <Property Name="GlyphImageFile" Value="MDIGlyphMinimize.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="MDICaptionButton.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="53, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MDIRestoreButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="241 239 229"/>
+            <Property Name="GlyphImageFile" Value="MDIGlyphRestore.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="MDICaptionButton.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="37, 1"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MdiSysButton">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MinButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="2, 2, 2, 2"/>
+            <Property Name="FillColorHint" Value="74 121 246"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile" Value="CaptionButton.png"/>
+            <Property Name="ImageFile1" Value="MinimizeGlyph6.bmp"/>
+            <Property Name="ImageFile2" Value="MinimizeGlyph9.bmp"/>
+            <Property Name="ImageFile3" Value="MinimizeGlyph.bmp"/>
+            <Property Name="ImageFile4" Value="MinimizeGlyph19.bmp"/>
+            <Property Name="ImageFile5" Value="MinimizeGlyph23.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="ImageSelectType" Value="size"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="126"/>
+            <Property Name="MinDpi3" Value="170"/>
+            <Property Name="Offset" Value="73, 5"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="MinCaption">
+            <Property Name="CaptionMargins" Value="4, 3, 0, 0"/>
+            <Property Name="ContentMargins" Value="3, 3, 0, 3"/>
+            <Property Name="FillColorHint" Value="0 84 229"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="FrameCaptionMin.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="23, 26, 12, 8"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <STATE Name="Active"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="RestoreButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="2, 2, 2, 2"/>
+            <Property Name="FillColorHint" Value="74 121 246"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile" Value="CaptionButton.png"/>
+            <Property Name="ImageFile1" Value="RestoreGlyph6.bmp"/>
+            <Property Name="ImageFile2" Value="RestoreGlyph9.bmp"/>
+            <Property Name="ImageFile3" Value="RestoreGlyph.bmp"/>
+            <Property Name="ImageFile4" Value="RestoreGlyph19.bmp"/>
+            <Property Name="ImageFile5" Value="RestoreGlyph23.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="ImageSelectType" Value="size"/>
+            <Property Name="MinDpi1" Value="96"/>
+            <Property Name="MinDpi2" Value="126"/>
+            <Property Name="MinDpi3" Value="170"/>
+            <Property Name="Offset" Value="49, 5"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="UniformSizing" Value="true"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="SmallCaption">
+            <Property Name="ContentMargins" Value="1, 1, 1, 1"/>
+            <Property Name="ContentAlignment" Value="left"/>
+            <Property Name="FillColorHint" Value="0 84 229"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="SmallFrameCaption.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="24, 37, 9, 8"/>
+            <Property Name="SizingType" Value="tile"/>
+            <STATE Name="Active"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="SmallCaptionSizingTemplate">
+            <Property Name="ContentMargins" Value="14, 14, 16, 0"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="SmallFrameCaptionSizing.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="24, 37, 9, 8"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="0 0 0"/>
+         </PART>
+         <PART Name="SmallCloseButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="BorderColorHint" Value="255 255 255"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="228 93 61"/>
+            <Property Name="GlyphImageFile" Value="SmallCloseGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="8"/>
+            <Property Name="ImageFile" Value="SmallCloseButton.png"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="Offset" Value="16, 3"/>
+            <Property Name="OffsetType" Value="TopRight"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="SmallFrameBottom">
+            <Property Name="Borderonly" Value="FALSE"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="frameBottom.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 2, 2"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="FALSE"/>
+            <STATE Name="Active"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="SmallFrameBottomSizingTemplate"/>
+         <PART Name="SmallFrameLeft">
+            <Property Name="Borderonly" Value="FALSE"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="frameLeft.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="2, 2, 0, 0"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="FALSE"/>
+            <STATE Name="Active"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="SmallFrameLeftSizingTemplate"/>
+         <PART Name="SmallFrameRight">
+            <Property Name="Borderonly" Value="FALSE"/>
+            <Property Name="ImageCount" Value="2"/>
+            <Property Name="ImageFile" Value="frameRight.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="2, 2, 0, 0"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="FALSE"/>
+            <STATE Name="Active"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="SmallFrameRightSizingTemplate"/>
+         <PART Name="SmallMaxCaption">
+            <STATE Name="Active"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Inactive"/>
+         </PART>
+         <PART Name="SysButton">
+            <Property Name="Offset" Value="10, 3"/>
+            <Property Name="OffsetType" Value="TopLeft"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="VertScroll">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+         <PART Name="VertThumb">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pushed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="ExplorerBar">
+      <CLASS Name="Rebar">
+         <Property Name="Bgtype" Value="imagefile"/>
+         <Property Name="FillColorHint" Value="243 247 253"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="ImageFile" Value="ExplorerBarToolbarBackground.bmp"/>
+         <Property Name="Sizingmargins" Value="0, 0, 0, 4"/>
+         <Property Name="Sizingtype" Value="stretch"/>
+         <Property Name="TextColor" Value="127 124 115"/>
+         <PART Name="Band">
+            <Property Name="Bgtype" Value="none"/>
+            <Property Name="ContentMargins" Value="2, 0, 0, 0"/>
+         </PART>
+         <PART Name="Chevron">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="0 0 0"/>
+            <Property Name="GlyphImageFile" Value="Chevron.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="VAlign" Value="Top"/>
+         </PART>
+         <PART Name="ChevronVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="0 0 0"/>
+            <Property Name="GlyphImageFile" Value="Chevron.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="VAlign" Value="Top"/>
+         </PART>
+         <PART Name="Gripper">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="ContentMargins" Value="3, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="171 167 149"/>
+            <Property Name="ImageFile" Value="Gripper.bmp"/>
+            <Property Name="SizingMargins" Value="0, 0, 6, 4"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+         <PART Name="GripperVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="171 167 149"/>
+            <Property Name="ImageFile" Value="GripperVert.bmp"/>
+            <Property Name="SizingMargins" Value="9, 8, 0, 0"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Toolbar">
+         <PART Name="Button">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="168 191 234"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="238 243 248"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="168 191 234"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="238 243 248"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarToolbarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="202 198 175"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="Separator.bmp"/>
+            <Property Name="SizingMargins" Value="5, 2, 2, 1"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SeparatorVert">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="202 198 175"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="SeparatorVert.bmp"/>
+            <Property Name="SizingMargins" Value="2, 1, 5, 1"/>
+            <Property Name="SizingType" Value="tile"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButton">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="168 191 234"/>
+            <Property Name="FillColorHint" Value="238 243 248"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarToolbarButtonsSplit.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 2, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropdown">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="168 191 234"/>
+            <Property Name="FillColorHint" Value="238 243 248"/>
+            <Property Name="GlyphImageFile" Value="ToolbarButtonsSplitDropdownGlyph.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="ExplorerBarToolbarButtonsSplitDropdown.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="2, 4, 4, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="true"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="Placesbar">
+      <CLASS Name="Toolbar">
+         <Property Name="Bgtype" Value="imagefile"/>
+         <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+         <Property Name="FillColorHint" Value="249 248 243"/>
+         <Property Name="ImageCount" Value="1"/>
+         <Property Name="ImageFile" Value="PlaceBarBackground.bmp"/>
+         <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+         <Property Name="SizingType" Value="tile"/>
+         <PART Name="Button">
+            <Property Name="Bgtype" Value="imagefile"/>
+            <Property Name="BorderColorHint" Value="122 152 175"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 2"/>
+            <Property Name="FillColorHint" Value="255 255 255"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="PlaceBarButtons.bmp"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="4, 4, 4, 4"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="true"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="Start">
+      <CLASS Name="Button">
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="ContentMargins" Value="10, 24, 2, 4"/>
+         <Property Name="FillColorHint" Value="74 153 73"/>
+         <Property Name="Font" Value="$StartButtonFont$"/>
+         <Property Name="ImageCount" Value="3"/>
+         <Property Name="ImageFile" Value="StartButton.bmp"/>
+         <Property Name="ImageLayout" Value="Vertical"/>
+         <Property Name="SizingMargins" Value="6, 52, 13, 14"/>
+         <Property Name="SizingType" Value="Stretch"/>
+         <Property Name="TextColor" Value="255 255 255"/>
+         <Property Name="Textshadowcolor" Value="69 76 16"/>
+         <Property Name="TEXTSHADOWOFFSET" Value="2, 2"/>
+         <Property Name="TextShadowType" Value="continuous"/>
+         <Property Name="Transparent" Value="True"/>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="StartMenu">
+      <CLASS Name="MenuBand">
+         <Property Name="TextColor" Value="0 0 0"/>
+         <STATE Name="Checked"/>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <STATE Name="HotChecked"/>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed"/>
+         <PART Name="NewAppButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="10, 0, 3, 0"/>
+            <Property Name="FillcolorHint" Value="254 234 182"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="StartGroupNewAppButton.bmp"/>
+            <Property Name="SizingMargins" Value="6, 1, 0, 0"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+         <PART Name="Seperator">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="10, 0, 3, 0"/>
+            <Property Name="FillColorHint" Value="211 211 200"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="StartGroupSeperator.png"/>
+            <Property Name="SizingMargins" Value="6, 1, 3, 0"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Toolbar">
+         <Property Name="AccentColorHint" Value="48 127 229"/>
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+         <Property Name="FillColorHint" Value="255 255 255"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="ImageFile" Value="StartGroupBackground.bmp"/>
+         <Property Name="SizingMargins" Value="6, 5, 3, 4"/>
+         <Property Name="SizingType" Value="Stretch"/>
+         <Property Name="TextColor" Value="0  0 0"/>
+         <STATE Name="Checked"/>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <STATE Name="HotChecked"/>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed"/>
+         <PART Name="Button">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="10, 0, 3, 0"/>
+            <Property Name="FillColorHint" Value="22 101 203"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="StartGroupToolbarButton.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="6, 1, 0, 0"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+         <PART Name="DropDownButton">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator"/>
+         <PART Name="SeparatorVert"/>
+         <PART Name="SplitButton">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropDown">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TaskBand">
+      <CLASS Name="ScrollBar">
+         <PART Name="ArrowBtn">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="25 66 205"/>
+            <Property Name="GlyphImageFile" Value="TaskBandScrollArrowGlyphs.bmp"/>
+            <Property Name="GlyphTransparent" Value="True"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="16"/>
+            <Property Name="ImageFile" Value="TaskbandScrollArrows.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <STATE Name="DownDisabled"/>
+            <STATE Name="DownHot"/>
+            <STATE Name="DownNormal"/>
+            <STATE Name="DownPressed"/>
+            <STATE Name="LeftDisabled"/>
+            <STATE Name="LeftHot"/>
+            <STATE Name="LeftNormal"/>
+            <STATE Name="LeftPressed"/>
+            <STATE Name="RightDisabled"/>
+            <STATE Name="RightHot"/>
+            <STATE Name="RightNormal"/>
+            <STATE Name="RightPressed"/>
+            <STATE Name="UpDisabled"/>
+            <STATE Name="UpHot"/>
+            <STATE Name="UpNormal"/>
+            <STATE Name="UpPressed"/>
+         </PART>
+         <PART Name="GripperHorz">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="44 96 226"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollThumbGripperHorizontal.BMP"/>
+            <Property Name="Imagelayout" Value="vertical"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="GripperVert">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="FillColorHint" Value="44 96 226"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollThumbGripperVertical.BMP"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingType" Value="TrueSize"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="LowerTrackHorz">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="37 90 225"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollShaftHorizontal.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="0, 0, 1, 1"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="LowerTrackVert">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="37 90 225"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollShaftVertical.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="1, 1, 0, 0"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbBtnHorz">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="4, 4, 0, 0"/>
+            <Property Name="FillColorHint" Value="25 66 205"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollThumbHorizontal.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ThumbBtnVert">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 4"/>
+            <Property Name="FillColorHint" Value="25 66 205"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollThumbVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="5, 5, 5, 5"/>
+            <Property Name="Transparent" Value="false"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="UpperTrackHorz">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="37 90 225"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollShaftHorizontal.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="0, 0, 1, 1"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="UpperTrackVert">
+            <Property Name="BgType" Value="imagefile"/>
+            <Property Name="FillColorHint" Value="37 90 225"/>
+            <Property Name="ImageCount" Value="4"/>
+            <Property Name="ImageFile" Value="TaskBandScrollShaftVertical.bmp"/>
+            <Property Name="ImageLayout" Value="Vertical"/>
+            <Property Name="SizingMargins" Value="1, 1, 0, 0"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Toolbar">
+         <Property Name="BgType" Value="None"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="TextColor" Value="$TextTaskband$"/>
+         <STATE Name="Checked">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <STATE Name="HotChecked">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed">
+            <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         </STATE>
+         <PART Name="Button">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 4, 4, 4"/>
+            <Property Name="FillColorHint" Value="54 127 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButton.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="17, 5, 15, 8"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 4, 4, 4"/>
+            <Property Name="FillColorHint" Value="54 127 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButton.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="17, 5, 15, 8"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator"/>
+         <PART Name="SeparatorVert"/>
+         <PART Name="SplitButton">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropDown">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TaskBandGroupMenu">
+      <CLASS Name="Toolbar">
+         <Property Name="AccentColorHint" Value="255 199 60"/>
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="ContentMargins" Value="9, 0, 0, 0"/>
+         <Property Name="FillColorHint" Value="33 87 213"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="ImageFile" Value="TaskBandBackground.bmp"/>
+         <Property Name="SizingMargins" Value="3, 3, 3, 3"/>
+         <Property Name="SizingType" Value="Tile"/>
+         <Property Name="TextColor" Value="255 255 255"/>
+         <Property Name="TransparentColor" Value="255 0 255"/>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot"/>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed"/>
+         <PART Name="Button">
+            <Property Name="AccentColorHint" Value="79 150 255"/>
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="9, 0, 3, 3"/>
+            <Property Name="ImageCount" Value="3"/>
+            <Property Name="ImageFile" Value="TaskBandHover.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="3, 3, 0, 0"/>
+            <Property Name="SizingType" Value="stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator"/>
+         <PART Name="SeparatorVert"/>
+         <PART Name="SplitButton">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropdown">
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TaskBandVert">
+      <CLASS Name="Toolbar">
+         <Property Name="BgType" Value="None"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="TextColor" Value="255 255 255"/>
+         <STATE Name="Checked"/>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot"/>
+         <STATE Name="HotChecked"/>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed"/>
+         <PART Name="Button">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 4, 4, 4"/>
+            <Property Name="FillColorHint" Value="54 127 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="16, 7, 12, 6"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 4, 4, 4"/>
+            <Property Name="FillColorHint" Value="54 127 239"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="16, 7, 12, 6"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator"/>
+         <PART Name="SeparatorVert"/>
+         <PART Name="SplitButton">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropDown">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TaskBar">
+      <CLASS Name="Rebar">
+         <Property Name="BgType" Value="None"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="TextColor" Value="123 182 232"/>
+         <PART Name="Band">
+            <Property Name="BgType" Value="None"/>
+         </PART>
+         <PART Name="Chevron">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 10"/>
+            <Property Name="FillColorHint" Value="6 45 159"/>
+            <Property Name="GlyphImageFile" Value="TaskbarChevron.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonNoEdge.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="8, 3, 18, 8"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="VAlign" Value="Top"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="ChevronVert">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 0, 0"/>
+            <Property Name="FillColorHint" Value="6 45 159"/>
+            <Property Name="GlyphImageFile" Value="TaskbarChevronVert.bmp"/>
+            <Property Name="GlyphTransparent" Value="true"/>
+            <Property Name="GlyphType" Value="ImageGlyph"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonNoEdgeVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="15, 5, 6, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Hot"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Gripper">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="2, 1, 0, 0"/>
+            <Property Name="FillColorHint" Value="6 45 159"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarGripper.bmp"/>
+            <Property Name="SizingMargins" Value="0, 0, 6, 4"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+         </PART>
+         <PART Name="GripperVert">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 2, 1"/>
+            <Property Name="FillColorHint" Value="6 45 159"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarGripperVertical.bmp"/>
+            <Property Name="SizingMargins" Value="4, 6, 0, 0"/>
+            <Property Name="SizingType" Value="Tile"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 255"/>
+         </PART>
+      </CLASS>
+      <CLASS Name="Toolbar">
+         <Property Name="BgType" Value="None"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="TextColor" Value="$TextToolbarHot$"/>
+         <STATE Name="Checked"/>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot"/>
+         <STATE Name="HotChecked"/>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed"/>
+         <PART Name="Button">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 4, 4"/>
+            <Property Name="FillColorHint" Value="53 122 238"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonNoEdge.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="8, 3, 18, 8"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="2, 0, 4, 4"/>
+            <Property Name="FillColorHint" Value="53 122 238"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonNoEdge.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="8, 3, 18, 8"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator"/>
+         <PART Name="SeparatorVert"/>
+         <PART Name="SplitButton">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropDown">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TaskBarVert">
+      <CLASS Name="Toolbar">
+         <Property Name="BgType" Value="None"/>
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="TextColor" Value="$TextTaskBand$"/>
+         <STATE Name="Checked">
+            <Property Name="TextColor" Value="255 255 255"/>
+         </STATE>
+         <STATE Name="Disabled"/>
+         <STATE Name="Hot"/>
+         <STATE Name="HotChecked">
+            <Property Name="TextColor" Value="255 255 255"/>
+         </STATE>
+         <STATE Name="Normal"/>
+         <STATE Name="Pressed">
+            <Property Name="TextColor" Value="255 255 255"/>
+         </STATE>
+         <PART Name="Button">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="1, 1, 1, 1"/>
+            <Property Name="FillColorHint" Value="53 122 238"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonNoEdgeVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="15, 5, 6, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="DropdownButton">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="1, 1, 1, 1"/>
+            <Property Name="FillColorHint" Value="53 122 238"/>
+            <Property Name="ImageCount" Value="6"/>
+            <Property Name="ImageFile" Value="TaskBandButtonNoEdgeVertical.bmp"/>
+            <Property Name="ImageLayout" Value="vertical"/>
+            <Property Name="SizingMargins" Value="15, 5, 6, 4"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="Separator"/>
+         <PART Name="SeparatorVert"/>
+         <PART Name="SplitButton">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+         <PART Name="SplitButtonDropDown">
+            <STATE Name="Checked"/>
+            <STATE Name="Disabled"/>
+            <STATE Name="Hot"/>
+            <STATE Name="HotChecked"/>
+            <STATE Name="Normal"/>
+            <STATE Name="Pressed"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TrayNotify">
+      <CLASS Name="Clock">
+         <Property Name="Font" Value="$Tahoma8$"/>
+         <Property Name="TextColor" Value="255 255 255"/>
+      </CLASS>
+      <CLASS Name="Toolbar">
+         <Property Name="BgType" Value="None"/>
+         <PART Name="Button">
+            <Property Name="BgType" Value="None"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TrayNotifyHoriz">
+      <CLASS Name="Button">
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="FillColorHint" Value="56 173 243"/>
+         <Property Name="ImageCount" Value="3"/>
+         <Property Name="ImageFile" Value="TrayChevronHorizontal.png"/>
+         <Property Name="Imagelayout" Value="vertical"/>
+         <Property Name="SizingType" Value="TrueSize"/>
+         <Property Name="Transparent" Value="false"/>
+         <Property Name="TransparentColor" Value="255 0 255"/>
+      </CLASS>
+      <CLASS Name="TrayNotify">
+         <PART Name="Background">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="19, 7, 0, 0"/>
+            <Property Name="FillColorHint" Value="13 141 234"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarTray.bmp"/>
+            <Property Name="SizingMargins" Value="34, 10, 12, 12"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TrayNotifyHorizOpen">
+      <CLASS Name="Button">
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="FillColorHint" Value="56 173 243"/>
+         <Property Name="ImageCount" Value="3"/>
+         <Property Name="ImageFile" Value="TrayChevronHorizontalOpen.png"/>
+         <Property Name="Imagelayout" Value="vertical"/>
+         <Property Name="SizingType" Value="TrueSize"/>
+         <Property Name="Transparent" Value="false"/>
+         <Property Name="TransparentColor" Value="255 0 255"/>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TrayNotifyVert">
+      <CLASS Name="Button">
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="FillColorHint" Value="56 173 243"/>
+         <Property Name="ImageCount" Value="3"/>
+         <Property Name="ImageFile" Value="TrayChevronHorizontal.png"/>
+         <Property Name="Imagelayout" Value="vertical"/>
+         <Property Name="SizingType" Value="TrueSize"/>
+         <Property Name="Transparent" Value="True"/>
+      </CLASS>
+      <CLASS Name="TrayNotify">
+         <PART Name="Background">
+            <Property Name="BgType" Value="ImageFile"/>
+            <Property Name="ContentMargins" Value="0, 0, 19, 7"/>
+            <Property Name="FillColorHint" Value="13 141 234"/>
+            <Property Name="ImageCount" Value="1"/>
+            <Property Name="ImageFile" Value="TaskbarTrayVertical.bmp"/>
+            <Property Name="SizingMargins" Value="12, 12, 34, 10"/>
+            <Property Name="SizingType" Value="Stretch"/>
+            <Property Name="Transparent" Value="True"/>
+            <Property Name="TransparentColor" Value="255 0 0"/>
+         </PART>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="TrayNotifyVertOpen">
+      <CLASS Name="Button">
+         <Property Name="BgType" Value="ImageFile"/>
+         <Property Name="FillColorHint" Value="56 173 243"/>
+         <Property Name="ImageCount" Value="3"/>
+         <Property Name="ImageFile" Value="TrayChevronHorizontalOpen.png"/>
+         <Property Name="Imagelayout" Value="vertical"/>
+         <Property Name="SizingType" Value="TrueSize"/>
+         <Property Name="Transparent" Value="True"/>
+      </CLASS>
+   </GROUP>
+   <GROUP Name="Shell">
+      <CLASS Name="Bitmap00010">
+         <Property Name="ImageFile" Value="Shell\Bitmap00010.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00011">
+         <Property Name="ImageFile" Value="Shell\Bitmap00011.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00012">
+         <Property Name="ImageFile" Value="Shell\Bitmap00012.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00013">
+         <Property Name="ImageFile" Value="Shell\Bitmap00013.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00014">
+         <Property Name="ImageFile" Value="Shell\Bitmap00014.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00015">
+         <Property Name="ImageFile" Value="Shell\Bitmap00015.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00016">
+         <Property Name="ImageFile" Value="Shell\Bitmap00016.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00017">
+         <Property Name="ImageFile" Value="Shell\Bitmap00017.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00018">
+         <Property Name="ImageFile" Value="Shell\Bitmap00018.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00019">
+         <Property Name="ImageFile" Value="Shell\Bitmap00019.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00020">
+         <Property Name="ImageFile" Value="Shell\Bitmap00020.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00021">
+         <Property Name="ImageFile" Value="Shell\Bitmap00021.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00022">
+         <Property Name="ImageFile" Value="Shell\Bitmap00022.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00025">
+         <Property Name="ImageFile" Value="Shell\Bitmap00025.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00026">
+         <Property Name="ImageFile" Value="Shell\Bitmap00026.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00100">
+         <Property Name="ImageFile" Value="Shell\Bitmap00100.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00101">
+         <Property Name="ImageFile" Value="Shell\Bitmap00101.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00102">
+         <Property Name="ImageFile" Value="Shell\Bitmap00102.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00103">
+         <Property Name="ImageFile" Value="Shell\Bitmap00103.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00104">
+         <Property Name="ImageFile" Value="Shell\Bitmap00104.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00105">
+         <Property Name="ImageFile" Value="Shell\Bitmap00105.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00106">
+         <Property Name="ImageFile" Value="Shell\Bitmap00106.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00107">
+         <Property Name="ImageFile" Value="Shell\Bitmap00107.png"/>
+      </CLASS>
+      <CLASS Name="Bitmap00110">
+         <Property Name="ImageFile" Value="Shell\Bitmap00110.bmp"/>
+      </CLASS>
+      <CLASS Name="Bitmap00112">
+         <Property Name="ImageFile" Value="Shell\Bitmap00112.bmp"/>
+      </CLASS>
+      <CLASS Name="TASKBULLET">
+         <Property Name="ImageFile" Value="Shell\TASKBULLET.GIF"/>
+      </CLASS>
+   </GROUP>
+</ROOT>

@@ -1,0 +1,84 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS =  processa.bpl CmmProc.bpl ProcScr.bpl Processa.exe SysRel.bpl \
+  SysMan.bpl SysCad.bpl SysCtb.bpl SysEvt.bpl SysEstq.bpl SysConf.bpl SysCrm.bpl \
+  SysPed.bpl SysFat.bpl SysBcCx.bpl SysSrv.bpl SysBr.bpl SysTrans.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+processa.bpl:C:\Arquivos de programas\Borland\Delphi7\Add\Processa\processa.dpk
+  $(DCC)
+
+CmmProc.bpl: Comum\CmmProc.dpk
+  $(DCC)
+
+ProcScr.bpl: Comum\ProcScr.dpk
+  $(DCC)
+
+Processa.exe: Processa.dpr
+  $(DCC)
+
+SysRel.bpl: SysRel\SysRel.dpk
+  $(DCC)
+
+#SysGen.bpl: SysGen\SysGen.dpk
+#  $(DCC)
+#
+SysMan.bpl: SysMan\SysMan.dpk
+  $(DCC)
+
+SysCad.bpl: SysCad\SysCad.dpk
+  $(DCC)
+
+SysCtb.bpl: SysCtb\SysCtb.dpk
+  $(DCC)
+
+SysEvt.bpl: SysEvt\SysEvt.dpk
+  $(DCC)
+
+SysEstq.bpl: SysEstq\SysEstq.dpk
+  $(DCC)
+
+SysConf.bpl: SysConf\SysConf.dpk
+  $(DCC)
+
+#SysPed.bpl: SysTec\SysTec.dpk
+#   $(DCC)
+#
+#SysPCP.bpl: SysPCP\SysPCP.dpk
+#  $(DCC)
+#
+SysCrm.bpl: SysCRM\SysCrm.dpk
+  $(DCC)
+
+SysPed.bpl: SysPed\SysPed.dpk
+  $(DCC)
+
+#SysBuy.bpl: SysBuy\SysBuy.dpk
+#  $(DCC)
+#
+SysFat.bpl: SysFat\SysFat.dpk
+  $(DCC)
+
+SysBcCx.bpl: SysBcCx\SysBcCx.dpk
+  $(DCC)
+
+SysSrv.bpl: SysSrv\SysSrv.dpk
+  $(DCC)
+
+SysBr.bpl: SysBr\SysBr.dpk
+  $(DCC)
+
+SysTrans.bpl: SysTrans\SysTrans.dpk
+  $(DCC)
+

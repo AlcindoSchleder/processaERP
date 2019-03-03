@@ -1,0 +1,68 @@
+package SysCrm;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Módulo de Agenda e recursos do cliente '}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  CmmProc,
+  ProcScr,
+  rtl,
+  vcl,
+  dbrtl,
+  vclx,
+  V103_D70,
+  VirtualTreesD7,
+  processa,
+  vcljpg,
+  dbexpress,
+  JvCoreD7R,
+  Jcl,
+  JvSystemD7R,
+  JvCustomD7R,
+  RxCtl7,
+  SsResourceAllocationChartPkgD7;
+
+contains
+  TrnspMem in 'TrnspMem.pas',
+  ArqCnstCrm in 'ArqCnstCrm.pas',
+  ArqSqlCrm in 'ArqSqlCrm.pas',
+  uSchedule in 'uSchedule.pas' {frmSchedule},
+  CadAgenda in 'CadAgenda.pas' {CdAgenda},
+  CadCntct in 'CadCntct.pas' {CdContacts},
+  CadEvent in 'CadEvent.pas' {CdEvents},
+  CadTask in 'CadTask.pas' {CdTasks},
+  DlgAlrm in 'DlgAlrm.pas' {AlarmDlg},
+  DlgMsg in 'DlgMsg.pas' {DlgMessage},
+  mSysCrm in 'mSysCrm.pas',
+  CrmAgent in 'CrmAgent.pas',
+  DlgDayView in 'DlgDayView.pas' {frmDayView},
+  DlgWeekView in 'DlgWeekView.pas' {frmWeekView},
+  DlgCntView in 'DlgCntView.pas' {frmContactView},
+  DlgTaskView in 'DlgTaskView.pas' {frmTasksView},
+  DlgContacts in 'DlgContacts.pas' {frmSelection},
+  DlgMonthView in 'DlgMonthView.pas' {frmChartView};
+
+end.

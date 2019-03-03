@@ -1,0 +1,282 @@
+<Directory Type='0' Named_Entries='3' ID_Entries='4'>
+   <Entry Name="DOSHEADER" Directory="1" Ignore="1">
+      <Directory Type="0" Name="DOSHEADER" Named_Entries="10" ID_Entries="0">
+         <Entry Name="DosHeader" Directory="1">
+            <Directory Type="0" Name="DosHeader" Named_Entries="0" ID_Entries="1">
+               <Entry ID="1033" Directory="0">
+                  <File Name="DosHeader.hdr"/>
+               </Entry>
+            </Directory>
+         </Entry>
+      </Directory>
+   </Entry>
+   <Entry Name="NTHEADER" Directory="1" Ignore="1">
+      <Directory Type="0" Name="NTHEADER" Named_Entries="10" ID_Entries="0">
+         <Entry Name="NTHeader" Directory="1">
+            <Directory Type="0" Name="NT Header" Named_Entries="0" ID_Entries="1">
+               <Entry ID="1033" Directory="0">
+                  <File Name="NTHeader.hdr"/>
+               </Entry>
+            </Directory>
+         </Entry>
+      </Directory>
+   </Entry>
+     <Entry Name='UIFILE' Directory='1' StripExt='0' >
+     <Directory Type='0' Name='UIFILE' Named_Entries='0' ID_Entries='2'>
+          <Entry ID='1' Directory='1'>
+          <Directory Type='1' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='UIFILE00001' Size='7925' Start='00002744' End='00004639' />
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='2' Directory='1'>
+          <Directory Type='2' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='UIFILE00002' Size='5139' Start='0000463c' End='00005a4f' />
+               </Entry>
+          </Directory>
+          </Entry>
+     </Directory>
+     </Entry>
+     <Entry ID='2' Directory='1'>
+     <Directory Type='2' Named_Entries='0' ID_Entries='25'>
+          <Entry ID='10' Directory='1'>
+          <Directory Type='10' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00010.BMP' Size='4136' Png='1' StripExt='0' Start='00005a50' End='00006a78'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='11' Directory='1'>
+          <Directory Type='11' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00011.BMP' Size='4158' Png='0' StripExt='0' Start='00006a78' End='00007ab6'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='12' Directory='1'>
+          <Directory Type='12' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00012.BMP' Size='23864' Png='0' StripExt='0' Start='00007ab8' End='0000d7f0'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='13' Directory='1'>
+          <Directory Type='13' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00013.BMP' Size='4136' Png='1' StripExt='0' Start='0000d7f0' End='0000e818'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='14' Directory='1'>
+          <Directory Type='14' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00014.BMP' Size='4090' Png='0' StripExt='0' Start='0000e818' End='0000f812'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='15' Directory='1'>
+          <Directory Type='15' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00015.BMP' Size='23864' Png='0' StripExt='0' Start='0000f814' End='0001554c'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='16' Directory='1'>
+          <Directory Type='16' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00016.BMP' Size='4136' Png='1' StripExt='0' Start='0001554c' End='00016574'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='17' Directory='1'>
+          <Directory Type='17' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00017.BMP' Size='4186' Png='0' StripExt='0' Start='00016574' End='000175ce'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='18' Directory='1'>
+          <Directory Type='18' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00018.BMP' Size='23864' Png='0' StripExt='0' Start='000175d0' End='0001d308'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='19' Directory='1'>
+          <Directory Type='19' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00019.BMP' Size='4136' Png='1' StripExt='0' Start='0001d308' End='0001e330'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='20' Directory='1'>
+          <Directory Type='20' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00020.BMP' Size='4086' Png='0' StripExt='0' Start='0001e330' End='0001f326'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='21' Directory='1'>
+          <Directory Type='21' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00021.BMP' Size='23864' Png='0' StripExt='0' Start='0001f328' End='00025060'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='22' Directory='1'>
+          <Directory Type='22' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00022.BMP' Size='4136' Png='1' StripExt='0' Start='00025060' End='00026088'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='25' Directory='1'>
+          <Directory Type='25' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00025.BMP' Size='90462' Png='0' StripExt='0' Start='00026088' End='0003c1e6'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='26' Directory='1'>
+          <Directory Type='26' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00026.BMP' Size='90514' Png='0' StripExt='0' Start='0003c1e8' End='0005237a'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='100' Directory='1'>
+          <Directory Type='100' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00100.BMP' Size='1972' Png='1' StripExt='0' Start='0005237c' End='00052b30'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='101' Directory='1'>
+          <Directory Type='101' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00101.BMP' Size='1972' Png='1' StripExt='0' Start='00052b30' End='000532e4'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='102' Directory='1'>
+          <Directory Type='102' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00102.BMP' Size='1972' Png='1' StripExt='0' Start='000532e4' End='00053a98'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='103' Directory='1'>
+          <Directory Type='103' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00103.BMP' Size='1972' Png='1' StripExt='0' Start='00053a98' End='0005424c'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='104' Directory='1'>
+          <Directory Type='104' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00104.BMP' Size='1972' Png='1' StripExt='0' Start='0005424c' End='00054a00'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='105' Directory='1'>
+          <Directory Type='105' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00105.BMP' Size='1972' Png='1' StripExt='0' Start='00054a00' End='000551b4'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='106' Directory='1'>
+          <Directory Type='106' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00106.BMP' Size='1972' Png='1' StripExt='0' Start='000551b4' End='00055968'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='107' Directory='1'>
+          <Directory Type='107' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00107.BMP' Size='1972' Png='1' StripExt='0' Start='00055968' End='0005611c'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='110' Directory='1'>
+          <Directory Type='110' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00110.BMP' Size='4302' Png='0' StripExt='0' Start='0005611c' End='000571ea'/>
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='112' Directory='1'>
+          <Directory Type='112' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='Bitmap00112.BMP' Size='4314' Png='0' StripExt='0' Start='000571ec' End='000582c6'/>
+               </Entry>
+          </Directory>
+          </Entry>
+     </Directory>
+     </Entry>
+     <Entry ID='6' Directory='1'>
+     <Directory Type='6' Named_Entries='0' ID_Entries='3'>
+          <Entry ID='1' Directory='1'>
+          <Directory Type='1' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='STRINGS.XML' Size='9' Start='000582c8' End='00058334' />
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='2' Directory='1'>
+          <Directory Type='2' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='STRINGS.XML' Size='9' Start='00058334' End='00058360' />
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry ID='7' Directory='1'>
+          <Directory Type='7' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='STRINGS.XML' Size='9' Start='00058360' End='00058390' />
+               </Entry>
+          </Directory>
+          </Entry>
+     </Directory>
+     </Entry>
+     <Entry ID='16' Directory='1'>
+     <Directory Type='16' Named_Entries='0' ID_Entries='1'>
+          <Entry ID='1' Directory='1'>
+          <Directory Type='1' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='VERSION' Size='992' Start='00058390' End='00058770' />
+               </Entry>
+          </Directory>
+          </Entry>
+     </Directory>
+     </Entry>
+     <Entry ID='23' Directory='1'>
+     <Directory Type='23' Named_Entries='3' ID_Entries='0'>
+          <Entry Name='CPWEBVW.CSS' Directory='1' StripExt='0' >
+          <Directory Type='0' Name='CPWEBVW.CSS' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='CPWEBVW.CSS' Size='3613' Start='00058770' End='0005958d' />
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry Name='TASKBULLET.GIF' Directory='1' StripExt='0' >
+          <Directory Type='0' Name='TASKBULLET.GIF' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='TASKBULLET.GIF' Size='1024' Start='00059590' End='00059990' />
+               </Entry>
+          </Directory>
+          </Entry>
+          <Entry Name='UAHELP.CSS' Directory='1' StripExt='0' >
+          <Directory Type='0' Name='UAHELP.CSS' Named_Entries='0' ID_Entries='1'>
+               <Entry ID='1046' Directory='0'>
+               <File Name='UAHELP.CSS' Size='597' Start='00059990' End='00059be5' />
+               </Entry>
+          </Directory>
+          </Entry>
+     </Directory>
+     </Entry>
+</Directory>

@@ -1,0 +1,62 @@
+Configurador de produtos
+*Tabela de Tipos de Acabamento e Referencias
+ - Fk ==> 0;
+ - Violation of ForeignKey Constraint
+ FK_Tipo_REferenc_Tipo_Acabament on table  "Tipo_Referencias" violation of Foreign  Key constraint ""
+ Error Code: 146
+ insert into Tipo_Referencias
+  (FK_Tipo_Acabamentos, PK_Tipo_Referencias, DSC_Ref, Faixa_Cust_INi,
+   Faixa_Cust_Fin, Flag_Tins)
+   values (...)
+
+Módulo Contábil
+ * Tabela de Natureza de Operações
+ - SQL error code= -303
+   conversion error from string "ENTRADAS DENTRO DO ESTADO"
+   Incompatible column/host variable data type
+   Error code: 249
+   Insert into Natureza_Operacoes (FK_Tipo_CFOP, DSC_NTOP, CMPL_CFOP, COD_CFOP, PK_Natureza_Operacoes) values (...)
+
+ * Tabela de Situações Tributária
+ Na abertura esta aparecendo a seguinte mensagem: 
+	Column unknown
+	STR.PK_SITUACAO_TRIBUTARIA
+	at line 3, column 12
+
+Módulo de Banco de Caixa
+ * Tabela de Operações
+	Titulo está: CdOperFin
+	Ordem dos campos não esta bem definida.
+	No momento de gravar aparece a mensagem: PostRecord
+ * Tabela de Bancos e Contas
+	Não consegui incluir, os botões de inclusão, gravação e exclusão aparecem todos desabilitados.
+
+Módulo do Sistema
+ * Tabela de Tipos de Documentos
+	Na Inclusão aparece a mensagem: Modelo da lista não criado... Podem ocorrer erros!
+	Após aparecer os dados, se incluo um novo registro na lista lateral, o registro
+  atualmente seleciona fica em branco sua descrição ou o texto na area de cadastro
+  permanece o mesmo do registro atual, se altero as informação e salvo,
+  gera um novo registro. Verifique!
+ * Cadastro de Empresas
+ 	Alterei os parametros, e pedi para gravar, fecha o programa, se mostrar nada
+   e nem gravar nada.
+
+Módulo de Cadastros
+ * Tabela de Tipo de Estabelecimento
+	Na Inclusão aparece a mensagem: Modelo da lista não criado... Podem ocorrer erros!
+	Após aparecer os dados, se incluo um novo registro na lista lateral, o registro
+  atualmente seleciona fica em branco sua descrição ou o texto na area de
+  cadastro permanece o mesmo do registro atual, se altero as informação e salvo,
+  gera um novo registro. Verifique!
+ * Tabela de Tipo de Bloqueios
+	Estou a incluir registro, aparece a mensagem de: Modelo da lista não criado...
+  Podem ocorrer erros!, Gravo o registro não aparece mensagem nenhuma, mas
+  também não grava nada e fechando e abrindo a tela, não aparece nada no menu
+  lateral.
+
+Tela Principal
+ * O Botão de Mensagem, os botões de ajuda não abrem nada, até o de "Sobre o sistema"
+ num executa, isto no menu lateral esquerdo.
+
+

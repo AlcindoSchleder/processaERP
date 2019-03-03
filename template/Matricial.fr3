@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Tag="1" Version="4.0.11" DataSet="frDataset" DataSetName="frDataset" DotMatrixReport="True" EngineOptions.PrintIfEmpty="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.OutlineExpand="False" PreviewOptions.Zoom="50" PreviewOptions.ZoomMode="zmWholePage" PrintOptions.Printer="Padrão" PrintOptions.PrintOnSheet="0" PrintOptions.ShowDialog="False" ReportOptions.CreateDate="38476,6678388657" ReportOptions.Description.Text="" ReportOptions.LastChange="39216,1437756713" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." StoreInDFM="False" PropData="044C656674021803546F7002180844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxDMPPage Name="Page1" PaperWidth="210,819863845505" PaperHeight="296,862308276426" PaperSize="9" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="" FontStyle="0"/>
+</TfrxReport>

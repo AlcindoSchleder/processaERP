@@ -1,0 +1,6 @@
+Praças e Pistas
+Arquivo: tr_3655667_050813153314_13.ped	
+	Linha 383:Erro (7): Valor da categoria (0) não encontrada! 
+Arquivo: tr_3657816_050814182923_17.ped	
+	Linha 352:Erro (7): Valor da categoria (0) não encontrada! 
+	Linha 380:Erro (7): Valor da categoria (0) não encontrada! 

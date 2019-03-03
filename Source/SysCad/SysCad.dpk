@@ -1,0 +1,64 @@
+package SysCad;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerenciador de Cadastros'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+{$DEFINE MOD_SYSCAD}
+
+requires
+  rtl,
+  CmmProc,
+  ProcScr,
+  vcl,
+  dbexpress,
+  VirtualTreesD7,
+  RxCtl7,
+  processa,
+  L207_r70;
+
+contains
+  SelCad in 'SelCad.pas' {SelCadastro},
+  CadArqSql in 'CadArqSql.pas',
+  ArqStr in 'Arqstr.pas',
+  CadCnst in 'CadCnst.pas',
+  mSysCad in 'mSysCad.pas' {dmSysCad: TDataModule},
+  CadCad in 'CadCad.pas' {frmOwners},
+  CadCustomer in 'CadCustomer.pas' {CdCustomer},
+  CadEmply in 'CadEmply.pas' {CdEmployee},
+  CadForn in 'CadForn.pas' {CdSupplier},
+  CadCat in 'CadCat.pas' {CdCategoria},
+  CadTEstb in 'CadTEstb.pas' {CdEstabelecimentos},
+  CadBloq in 'CadBloq.pas' {CdBloqueio},
+  CadLocais in 'CadLocais.pas' {CdLocales},
+  CadPais in 'CadPais.pas' {CdPaises},
+  CadUf in 'CadUf.pas' {CdEstados},
+  CadMun in 'CadMun.pas' {CdMunicipios},
+  CadBai in 'CadBai.pas' {CdBairros},
+  CadLoc in 'CadLoc.pas' {CdLogradouros},
+  CadTpe in 'CadTpe.pas' {CdTipoEnd},
+  CadReg in 'CadReg.pas' {CdRegions},
+  CadTCom in 'CadTCom.pas' {CdTypeCom};
+
+end.

@@ -1,0 +1,57 @@
+package SysTec;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Módulos de gerenciamento de Ficha técnica de produtos'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  rtl,
+  dbrtl,
+  dsnap,
+  vclx,
+  vcldb,
+  VclSmp,
+  QExportRT_D7,
+  VirtualTreesD7,
+  ibxpress,
+  JvStdCtrlsD7R,
+  vcljpg,
+  JvCoreD7R,
+  DJclVcl,
+  DJcl,
+  JvSystemD7R,
+  RxCtl7,
+  RxDB7,
+  processa,
+  V103_D70,
+  designide,
+  vclactnband;
+
+contains
+  mSysPCP in 'mSysPCP.pas' {dmSysPCP: TDataModule},
+  ArqSqPCPl in 'ArqSqPCPl.pas',
+  DlgVersion in 'DlgVersion.pas' {dgVersion};
+
+end.

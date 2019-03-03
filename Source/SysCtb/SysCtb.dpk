@@ -1,0 +1,62 @@
+package SysCtb;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerenciamento Contábil'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  ProcScr,
+  CmmProc,
+  vcl,
+  dbrtl,
+  dbexpress,
+  vcldb,
+  VirtualTreesD7,
+  RxCtl7,
+  processa,
+  vclx,
+  VclSmp,
+  vcljpg,
+  V103_D70,
+  designide,
+  vclactnband;
+
+contains
+  mSysCtb in 'mSysCtb.pas' {dmSysCtb: TDataModule},
+  ArqCnst in 'ArqCnst.pas',
+  CtbArqSql in 'CtbArqSql.pas',
+  CadTImp in 'CadTImp.pas' {CdTypeTax},
+  CadPlnAcc in 'CadPlnAcc.pas' {CdPlanAccount},
+  CadTaxes in 'CadTaxes.pas' {CdTaxes},
+  CadAlqt in 'CadAlqt.pas' {CdTax},
+  CadTaxPr in 'CadTaxPr.pas' {CdTaxPrinter},
+  CadSitOrgm in 'CadSitOrgm.pas' {CdSitTrib},
+  CadCfop in 'CadCfop.pas' {CdCfops},
+  CadNatOp in 'CadNatOp.pas' {CdNatOper},
+  CadTCfop in 'CadTCfop.pas' {CdTipoCfop},
+  CadCFisc in 'CadCFisc.pas' {CdClassFisc};
+
+end.

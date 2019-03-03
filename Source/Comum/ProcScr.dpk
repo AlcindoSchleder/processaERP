@@ -1,0 +1,79 @@
+package ProcScr;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Units comuns das Bibliotecas do Processa'}
+{$IMPLICITBUILD OFF}
+
+requires
+  VirtualTreesD7,
+  processa,
+  CmmProc,
+  vcl,
+  rtl,
+  RxCtl7,
+  VclSmp,
+  vcljpg,
+  V103_D70,
+  dbrtl,
+  designide,
+  vclactnband,
+  vcldb,
+  vclx,
+  dsnap,
+  dbxcds,
+  dbexpress,
+  dclstd,
+  designdgm,
+  vcldesigner,
+  dcldb,
+  DbExprPlus_r70;
+
+contains
+  CadModel in 'CadModel.pas' {frmModel},
+  DualMod in 'DualMod.pas' {DualOrder},
+//  CadMod in 'CadMod.pas' {CdModelo},
+  CnsMod in 'CnsMod.pas' {CnsModelo},
+  ModelTyp in 'ModelTyp.pas',
+  TSysCad in 'TSysCad.pas',
+  TSysCadAux in 'TSysCadAux.pas',
+  TSysConfAux in 'TSysConfAux.pas',
+  TSysCrmAux in 'TSysCrmAux.pas',
+  TSysCtbAux in 'TSysCtbAux.pas',
+  TSysEstq in 'TSysEstq.pas',
+  TSysEstqAux in 'TSysEstqAux.pas',
+  TSysFatAux in 'TSysFatAux.pas',
+  TSysGen in 'TSysGen.pas',
+  TSysMan in 'TSysMan.pas',
+  TSysManAux in 'TSysManAux.pas',
+  TSysPed in 'TSysPed.pas',
+  TSysPedAux in 'TSysPedAux.pas',
+  TSysSrv in 'TSysSrv.pas',
+  TSysBcCx in 'TSysBcCx.pas',
+  TSysSrvAux in 'TSysSrvAux.pas',
+  PrcSysTypes in 'PrcSysTypes.pas',
+  TSysTrans in 'TSysTrans.pas',
+  CadMultiModel in 'CadMultiModel.pas' {frmMultiModel},
+  CadListModel in 'CadListModel.pas' {frmModelList};
+
+end.

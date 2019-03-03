@@ -1,0 +1,66 @@
+package SysRel;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerador de Relatórios do Sistema Processa E.R.P. Open Source'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  dbexpress,
+  VirtualTreesD7,
+  tee,
+  frx7,
+  fs7,
+  vcljpg,
+  frxDB7,
+  fsDB7,
+  frxDBX7,
+  frxe7,
+  processa,
+  RxCtl7,
+  CmmProc,
+  teedb,
+  JvWizardD7R,
+  teeui,
+  frxTee7,
+  fsTee7;
+
+contains
+  SelImp in 'SelImp.pas' {PrintManager},
+  ArqSqlRel in 'ArqSqlRel.pas',
+  ArqStrRel in 'ArqStrRel.pas',
+  mReport in 'mReport.pas' {dmReport: TDataModule},
+  mSysRel in 'mSysRel.pas' {dmSysRel: TDataModule},
+  SelDosIm in 'SelDosIm.pas' {SelImprDos},
+  CadRel in 'CadRel.pas' {CdReports},
+  PrntGen in 'PrntGen.pas' {frmPrintGenerator},
+  SelReports in 'SelReports.pas' {frmPrgReports},
+  SelFields in 'SelFields.pas' {frmDualSelect},
+  SelFilter in 'SelFilter.pas' {frmSelCdFilter},
+  SelView in 'SelView.pas' {frmDataView},
+  ScrReport in 'ScrReport.pas' {frmScreenReport};
+
+end.

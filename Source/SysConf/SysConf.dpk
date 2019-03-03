@@ -1,0 +1,58 @@
+package SysConf;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Configurador de Produtos'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  CmmProc,
+  rtl,
+  vcl,
+  dbrtl,
+  dbexpress,
+  vcldb,
+  VirtualTreesD7,
+  RxCtl7,
+  processa,
+  vcljpg,
+  ProcScr,
+  vclx;
+
+contains
+  EstqCnst in 'EstqCnst.pas',
+  ConfArqSql in 'ConfArqSql.pas',
+  mSysConf in 'mSysConf.pas' {dmSysConf: TDataModule},
+  SearchReferencia in 'SearchReferencia.pas' {fmSearchReferencia},
+  Configurador in 'Configurador.pas' {fmConfigurador},
+  EditAcabamento in 'EditAcabamento.pas' {fmEditAcabamento},
+  EditComponente in 'EditComponente.pas' {fmEditComponente},
+  EditReferencia in 'EditReferencia.pas' {fmEditReferencia},
+  CadTypeRef in 'CadTypeRef.pas' {CdTypeReference},
+  CadTFinish in 'CadTFinish.pas' {CdTypeFinish},
+  CadTipoAcabamentos in 'CadTipoAcabamentos.pas' {CdTipoAcabamentos},
+  CadTipoComponentes in 'CadTipoComponentes.pas' {CdTipoComponentes};
+
+end.
+

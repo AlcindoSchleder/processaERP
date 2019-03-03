@@ -1,0 +1,55 @@
+package SysSrv;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerenciador de Serviços'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  ProcScr,
+  CmmProc,
+  vcljpg,
+  vcl,
+  dbrtl,
+  vcldb,
+  VirtualTreesD7,
+  RxCtl7,
+  processa;
+
+contains
+  SrvArqSql in 'SrvArqSql.pas',
+  ArqCnst in 'ArqCnst.pas',
+  CadOrSrv in 'CadOrSrv.pas' {frmServiceOrder},
+  ChangePgto in 'ChangePgto.pas' {fmChangePgtOS},
+  EditOS in 'EditOS.pas' {fmEditOS},
+  ItemOS in 'ItemOS.pas' {frmItemOS},
+  mSysSrv in 'mSysSrv.pas' {dmSysSrv: TDataModule},
+  OsForms in 'OsForms.pas' {OSForm},
+  SearchOS in 'SearchOS.pas' {fmSearchOS},
+  SelComp in 'SelComp.pas' {frmCompositions},
+  CnsCash in 'CnsCash.pas' {frmContas},
+  SimPgto in 'SimPgto.pas' {frmPgtos};
+
+end.

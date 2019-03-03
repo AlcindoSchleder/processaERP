@@ -1,0 +1,69 @@
+package SysTec;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Módulos de gerenciamento de Ficha técnica de produtos'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcljpg,
+  vcl,
+  dbrtl,
+  dsnap,
+  vcldb,
+  QExportRT_D7,
+  VirtualTreesD7,
+  vclx,
+  ibxpress,
+  JvStdCtrlsD7R,
+  JvCoreD7R,
+  DJclVcl,
+  DJcl,
+  JvSystemD7R,
+  RxCtl7,
+  processa,
+  designide;
+
+contains
+  udmFichaTecnica in 'udmFichaTecnica.pas' {dmFichaTecnica: TDataModule},
+  ArqSql in 'ArqSql.pas',
+  CadMaq in 'CadMaq.pas',
+  CadSrvc in 'CadSrvc.pas',
+  CadTFase in 'CadTFase.pas',
+  CadTOpe in 'CadTOpe.pas',
+  CopyFicha in 'CopyFicha.pas' {fmCopyFicha},
+  EditFaseProducao in 'EditFaseProducao.pas' {fmEditFaseProducao},
+  EditFerramentaOperacao in 'EditFerramentaOperacao.pas' {fmEditFerramentaOperacao},
+  EditMaquinaOperacao in 'EditMaquinaOperacao.pas' {fmEditMaquinaOperacao},
+  EditOperacao in 'EditOperacao.pas' {fmEditOperacao},
+  EditPeca in 'EditPeca.pas' {fmEditPeca},
+  EstqCnst in 'EstqCnst.pas',
+  FichaTecnica in 'FichaTecnica.pas' {fmFichaTecnica},
+  mSysCosts in 'mSysCosts.pas' {dmSysCosts: TDataModule},
+  NovoAcabamentoOperacao in 'NovoAcabamentoOperacao.pas' {fmNovoAcabamentoOperacao},
+  NovoInsumoOperacao in 'NovoInsumoOperacao.pas' {fmNovoInsumoOperacao},
+  NovoServicoOperacao in 'NovoServicoOperacao.pas' {fmNovoServicoOperacao},
+  SearchReferenciaPeca in 'SearchReferenciaPeca.pas' {fmSearchReferenciaPeca};
+
+end.

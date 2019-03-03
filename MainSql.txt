@@ -1,0 +1,22 @@
+select Tme.DTHR_ALT, 
+       Tme.DTHR_INC,
+       Tme.OPE_ALT,
+       Tme.OPE_INC,
+       Tme.FLAG_GENHST,
+       Tme.FLAG_MVRSRV,
+       Tme.FLAG_MVESTQ,
+       Tme.FLAG_MVGRNT,
+       Tme.FLAG_TCOD,
+       Tme.FLAG_TBAIXA,
+       Tme.FLAG_OPESTQ,
+       Tme.FLAG_OPRSRV,
+       Tme.FLAG_OPGRNT,
+       Tme.PK_TIPO_MOVIM_ESTQ,
+       Tme.DSC_TMOV,
+       Tme.FLAG_TMOV,
+       Tme.FLAG_OPQRNT,
+       Tme.FLAG_MVQRNT
+  from TIPO_MOVIM_ESTQ Tme 
+ where Tme.FLAG_OPESTQ = :flagopestq 
+   and Tme.FLAG_OPRSRV = :flagoprsrv 
+   and Tme.FLAG_OPGRNT = :flagopgrnt 

@@ -1,0 +1,55 @@
+package SysBr;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Gerenciamento Contábil'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  ProcScr,
+  CmmProc,
+  vcl,
+  dbrtl,
+  dbexpress,
+  VirtualTreesD7,
+  RxCtl7,
+  processa,
+  vcljpg;
+
+contains
+  mSysBr in 'mSysBr.pas' {dmSysBr: TDataModule},
+  ArqCnstBr in 'ArqCnstBr.pas',
+  ArqSqlBr in 'ArqSqlBr.pas',
+  CadPracas in 'CadPracas.pas' {frmSquares},
+  SqrForm in 'SqrForm.pas' {frmSquareForms},
+  CadSqr in 'CadSqr.pas' {CdSquare},
+  CadTrack in 'CadTrack.pas' {CdTrack},
+  CadPrCat in 'CadPrCat.pas' {CdCategory},
+  CadPrOpe in 'CadPrOpe.pas' {CdOperator},
+  uReadTxt in 'uReadTxt.pas' {frmMvReadTxt},
+  CadTOcr in 'CadTOcr.pas' {CdTypeOccurs},
+  CadParams in 'CadParams.pas' {CdParams};
+
+end.
